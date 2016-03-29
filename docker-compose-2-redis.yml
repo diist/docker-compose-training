@@ -1,0 +1,23 @@
+version: '2'
+
+services:
+  dev:
+    image: python:2.7-slim
+    command: bash
+    volumes:
+      - ./voting-app:/cwd
+    working_dir: /cwd
+    environment:
+      REDIS_HOST: redis
+    depends_on:
+      - redis
+    networks:
+      - backend
+
+  redis:
+    image: redis
+    networks:
+      - backend
+
+networks:
+  backend:

@@ -1,0 +1,20 @@
+#!/usr/bin/make -f 
+
+shell:
+	docker-compose run --rm dev bash
+
+install:
+	docker-compose run --rm dev pip install -r requirements.txt
+	
+start:
+	docker-compose run --rm --service-ports dev python app.py
+
+test:
+	docker-compose run --rm dev python test.py
+
+del: 
+	docker-compose stop
+	docker-compose rm -f 
+
+clean:
+	find . -type f -name '*.pyc' -exec rm {} \;

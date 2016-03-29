@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Docker Compose</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="media/favicon.png" type="image/png" />
+  </head>
+  <body>
+    <textarea id="source">
+
+name: docker-compose
+class: center, middle, big
+# Docker Compose
+
+...for development and test
+
+---
+# Agenda
+
+- [Voting App Example](#voting-app-example)
+- [Without Docker](#without-docker)
+- [With Docker Compose](#with-docker-compose)
+  - [Try it yourself #1](#try-it-yourself-1)
+- [Linking Redis](#linking-redis)
+  - [Try it yourself #2](#try-it-yourself-2)
+- [Exposing the Ports](#exposing-the-ports)
+  - [Try it yourself #3](#try-it-yourself-3)
+- [Using a Cache Volume](#using-a-cache-volume)
+  - [Try it yourself #4](#try-it-yourself-4)
+- [Using a Helper Image](#helper-image)
+  - [Try it yourself #5](#try-it-yourself-5)
+- [CI-friendly with `auto` script](#ci-friendly-with-auto-script)
+- [Break the Tests](#try-it-yourself-6)
+  - [Try it yourself #6](#try-it-yourself-5)
+- [AWS Access](#aws-access)
+
+---
+name: voting-app-example
+# Voting App Example
+
+- Python web app
+- Flask web framework
+- Vote for your favorite animal
+- Votes stored in the Redis backend
+
+```
+├── app.py
+├── lib/
+├── requirements.txt
+├── static/
+├── templates/
+├── test.py
+└── utils/
+```
+
+```
+                +----------+       +-----------+
+ O              | APP      |       | REDIS     |
+/|\ USER -----> |    :5000 +-----> |     :6379 |
+/ \             +----------+       +-----------+
+
+```
+
+---
+name: without-docker
+# Without Docker
+
+You need:
+  - python
+    - flask
+    - redis
+  - redis server
+
+Usage:
+
+```bash
+# Install dependencies
+$ pip install -r requirements.txt
+
+# Start redis server
+$ redis-server
+
+# Start my app
+$ python app.py
+
+# Run my tests
+$ python test.py
+```
+
+---
+### Dockerfile for voting-app
+```bash
+# Using official python runtime base image
+FROM python:2.7
+
+# Set the application directory
+WORKDIR /app
+
+# Install our requirements.txt
+ADD requirements.txt /app/requirements.txt
+RUN pip install -r requirements.txt
+
+# Copy our code to /app inside the container
+ADD . /app
+
+# Make port 5000 available for links and/or publish
+EXPOSE 5000
+
+# Define our command to be run when launching the container
+CMD ["python", "app.py"]
+```
+
+No no no, we don't want to build an artifact just yet!
+
+---
+name: with-docker-compose
+# With Docker Compose
+
+- We don't rely on the environment
+- Same environment on your machine and on the build agent (CI)
+- We're not creating a Docker image
+  - Production artifact creation is another piece of work
+  - We want to dev and test easily
+  - We just drop in a `docker-compose.yml` file in our project dir
+
+
+- Let's start:
+
+```yaml
+# docker-compose.yml
+version: '2'
+services:
+  dev:
+    image: python:2.7-slim
+    command: bash
+    volumes:
+      - ./voting-app:/cwd
+    working_dir: /cwd
+```
+
+- Official Python Docker image
+- We mount our app source code in the container and get a bash prompt
+---
+name: try-it-yourself-1
+# Try it yourself #1
+- Run the following commands:
+```
+$ docker-compose -f docker-compose-1-intro.yml run dev
+root@container:/cwd# pip install -r requirements.txt
+root@container:/cwd# python app.py
+```
+
+- Did it work?
+- What are we missing?
+
+---
+name: linking-redis
+# Linking Redis
+```yaml
+services:
+  dev:
+    [...]
+*   environment:
+*     REDIS_HOST: redis
+*   depends_on:
+      - redis
+*   networks:
+      - backend
+
+* redis:
+*   image: redis
+*   networks:
+*     - backend
+
+*networks:
+*  backend:
+```
+
+- The `redis` container will start first
+- The `dev` container will be able to access the exposed ports of the `redis` container.
+- `redis`'s ip address will be added to `dev`'s `hosts` file.
+  - So `dev` can `ping redis` for example
+
+---
+name: try-it-yourself-2
+# Try it yourself #2
+- Run the following commands:
+```
+$ docker-compose -f docker-compose-2-redis.yml run dev
+root@container:/cwd# pip install -r requirements.txt
+root@container:/cwd# python test.py
+root@container:/cwd# python app.py
+```
+
+Browse `http://<DOCKER_IP>:5000`
+
+- Can you reach your app?
+- Why not?
+
+---
+name: exposing-the-ports
+# Exposing the Ports
+
+```YAML
+services:
+  dev:
+    [...]
+*   ports:
+*     - "5000:5000"
+
+redis:
+  image: redis
+  [...]
+```
+
+- Port `5000`, on which the app listens to inside the dev container, will
+be mapped to port `5000` on the Docker host.
+- This mapping is
+  - Automatically done when using `docker-compose up`
+  - Enabled with `--service-ports` when using `docker-compose run`
+
+---
+name: try-it-yourself-3
+# Try it yourself #3
+- Run the following commands:
+```
+$ docker-compose -f docker-compose-3-ports.yml \
+        run --service-ports dev
+root@container:/cwd# pip install -r requirements.txt
+root@container:/cwd# python test.py
+root@container:/cwd# python app.py
+```
+
+Browse `http://<DOCKER_IP>:5000`
+
+- Does it work?
+- How could we avoid installing the requirements every time?
+
+---
+name: using-a-cache-volume
+# Using a Cache Volume
+```YAML
+services:
+  dev:
+    image: python:2.7-slim
+    command: bash
+    volumes:
+      - ./voting-app:/cwd
+*     - python2.7-cache:/pip-cache
+    working_dir: /cwd
+    environment:
+*     PYTHONPATH: $PYTHONPATH:/pip-cache
+*     XDG_CACHE_HOME: /pip-cache/downloads
+      REDIS_HOST: redis
+[...]
+
+*volumes:
+*  python2.7-cache:
+```
+
+- Creates volume `python2.7-pip-cache` that will persist after containers die.
+- That volume can be used in other projects!
+- `python` needs a few environment variables to use this volume.
+
+---
+name: try-it-yourself-4
+# Try it yourself #4
+- Run the following commands:
+```
+$ docker-compose -f docker-compose-4-cache.yml \
+        run --service-ports dev
+root@container:/cwd# pip install -r requirements.txt
+root@container:/cwd# python test.py
+root@container:/cwd# python app.py
+```
+
+- Exit the container
+- Try again without installing anything:
+```
+$ docker-compose -f docker-compose-4-cache.yml \
+        run --service-ports dev
+root@container:/cwd# python test.py
+root@container:/cwd# python app.py
+```
+
+- Does it work without installing the requirements every time?
+
+---
+name: helper-image
+# Using a helper image
+```yml
+services:
+  dev:
+*   build: ./alpine-python2.7
+    volumes:
+      - ./voting-app:/cwd
+      - python2.7-pip-cache:/pip-cache
+    [...]
+```
+
+- We want to build our own Python image, for reasons.
+- The image is built as per the `Dockerfile` in `./alpine-python2.7` dir
+
+---
+### `./alpine-python2.7/Dockerfile`
+
+```
+FROM alpine:3.3
+
+RUN apk add --update \
+      python \
+      py-pip \
+ && rm /var/cache/apk/*
+
+CMD ["sh"]
+```
+
+---
+name: try-it-yourself-5
+# Try it yourself #5
+- Run the following one-off commands:
+
+```bash
+# Install requirements
+$ docker-compose -f docker-compose-5-helper.yml run --rm dev \
+    pip install -r requirements.txt
+
+# Run the tests
+$ docker-compose -f docker-compose-5-helper.yml run --rm dev \
+    python test.py
+
+# Start the app
+$ docker-compose -f docker-compose-5-helper.yml \
+    run --rm --service-ports dev \
+    python app.py
+```
+
+- What extra step happened here compared to the previous exercises?
+- Can you see any other benefit from using a custom image?
+  - hint: `docker images | grep python`
+
+---
+name: ci-friendly-with-auto-script
+# CI-friendly with `auto` script
+```bash
+#!/usr/bin/make -f
+
+install:
+	docker-compose run --rm dev pip install -r requirements.txt
+
+start:
+	docker-compose run --rm --service-ports dev python app.py
+
+test:
+	docker-compose run --rm dev python test.py
+```
+
+- Usage example:
+```bash
+$ ./auto install
+$ ./auto test
+```
+
+- Here it's a Makefile, but it could be bash, ruby...
+- Consistent actions across projects
+
+---
+name: try-it-yourself-6
+# Try it yourself #6
+## Break the tests
+- Run the tests
+  - You can use `./auto test`
+  - What's the exit code?
+  - hint: `echo $?` (`0` is good, anything else is bad)
+
+- Break one of the test
+  - For example you can change `==` to `!=` in one of the `assert` in `test.py`
+  - Run the tests again
+  - What's the exit code?
+
+- Why is this useful for continuous integration?
+- The default command is already `python test.py`
+  - Try `docker-compose up`
+
+---
+name: aws-access
+# AWS Access from Containers
+
+```yaml
+awscli:
+  build: .
+  environment:
+*   AWS_SESSION_TOKEN:
+*   AWS_ACCESS_KEY_ID:
+*   AWS_SECRET_ACCESS_KEY:
+*   AWS_DEFAULT_REGION:
+    IAM_ROLE:
+```
+https://git.realestate.com.au/cbde/awscli-image
+
+- No right hand side means we pass in env vars from host
+- Container has now access to AWS account
+- Good for local testing
+- Another example using KMS locally:
+ - https://git.realestate.com.au/cbde/kms-simple-docker
+---
+# Questions and Feedback
+- Raise Issue or PR at [applied-docker](https://git.realestate.com.au/cbde/applied-docker)
+- Docker Training Slack `#docker-training`
+- Team Slack `#cbde`
+- My Slack `@clement.labbe`
+
+<link rel="import" href="docker-compose.html" />
+
+    </textarea>
+    <script src="js/remark-dev.js"></script>
+    <script>
+      var slideshow = remark.create({
+        highlightStyle: 'obsidian',
+        highlightLines: true
+      });
+    </script>
+  </body>
+</html>

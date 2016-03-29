@@ -1,0 +1,34 @@
+version: '2'
+
+services:
+  dev:
+    image: python:2.7-slim
+    command: python test.py
+    volumes:
+      - ./voting-app:/cwd
+      - python2.7-cache:/pip-cache
+    working_dir: /cwd
+    environment:
+      PIP_TARGET: /pip-cache
+      PYTHONPATH: $PYTHONPATH:/pip-cache
+      XDG_CACHE_HOME: /pip-cache/downloads
+      REDIS_HOST: redis
+      OPTION_A: Goats
+      OPTION_B: Llamas
+    depends_on:
+      - redis
+    networks:
+      - backend
+    ports:
+      - "5000:5000"
+
+  redis:
+    image: redis
+    networks:
+      - backend
+
+volumes:
+  python2.7-cache:
+
+networks:
+  backend:

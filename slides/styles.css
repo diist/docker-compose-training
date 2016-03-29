@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+body { font-family: 'Noto Sans', sans-serif; }
+h1, h2, h3 {
+  font-weight: normal;
+}
+.remark-code, .remark-inline-code {
+  font-family: monospace;
+}
+
+.remark-code-span-highlighted {
+  background-color: inherit;
+  color: #ffc;
+}
+
+.remark-code-line-highlighted {
+    background-color: rgba(109, 109, 91, 0.5);
+}
+
+.hljs-obsidian pre .hljs {
+  background-color: inherit;
+  padding: 0;
+}
+
+.hljs-attr {
+  color: #ffa;
+}
+
+h1 {
+  line-height: 110%;
+}
+
+pre {
+  padding: 6px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  background: black;
+  color: #ddd;
+}
+
+.remark-inline-code {
+  border: 1px solid #eee;
+  font-size: 90%;
+  padding: 2px;
+}
+
+div.lhs {
+  float: left;
+  width: 49%;
+}
+div.rhs {
+  float: right;
+  width: 49%;
+}
+
+.big {
+  font-size: 150%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+table.compare {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+table.compare th, table.compare td {
+  border: 1px solid #aaa;
+  padding: 6px 10px;
+  text-align: center;
+}
+
+table.compare td.factor {
+  font-style: italic;
+}
+
+table.docker-image {
+  margin: 10px auto;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+table.docker-image td {
+  text-align: center;
+}
+
+table.docker-image td.writable {
+  padding: 5px;
+  border: 2px dashed #666;
+}
+
+table.docker-image td.snapshot {
+  padding: 5px;
+  background-color: #f8f8f8;
+  border: 2px solid #666;
+}
+
+table.docker-image td.labels {
+  text-align: left;
+  padding-left: 20px;
+  font-family: 'Ubuntu Mono', monospace;
+}
