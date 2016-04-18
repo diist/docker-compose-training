@@ -190,6 +190,27 @@ networks:
   - So `dev` can `ping redis` for example
 
 ---
+name: linking-redis-diagram
+# Linking Redis Diagram
+```
+             +-------------------------+
+             | +---------------------+ |
+             | |                     | |
+             | |  +-----+            | |
+             | |  | APP |            | |
+ 0           | |  +--+--+            | |
+/|\          | |     |               | |
+/ \          | |  +--v--+            | |
+             | |  |REDIS|            | |
+             | |  +-----+            | |
+             | |                     | |
+             | | Network: backend    | |
+             | +---------------------+ |
+             | Docker Host             |
+             +-------------------------+
+
+```
+---
 name: try-it-yourself-2
 # Try it yourself #2
 - Run the following commands:
@@ -226,6 +247,27 @@ be mapped to port `5000` on the Docker host.
 - This mapping is
   - Automatically done when using `docker-compose up`
   - Enabled with `--service-ports` when using `docker-compose run`
+
+---
+name: exposing-the-ports-diagram
+# Exposing the Ports
+```
+             +-------------------------+
+             | +---------------------+ |
+             | |                     | |
+             | |  +-----+            | |
+   +--------------> APP |            | |
+ 0 |         | |  +--+--+            | |
+/|\+         | |     |               | |
+/ \          | |  +--v--+            | |
+             | |  |REDIS|            | |
+             | |  +-----+            | |
+             | |                     | |
+             | | Network: backend    | |
+             | +---------------------+ |
+             | Docker Host             |
+             +-------------------------+
+```
 
 ---
 name: try-it-yourself-3
@@ -271,6 +313,28 @@ volumes:
 - `python` needs a few environment variables to use this volume.
 
 ---
+name: using-a-cache-volume-diagram
+# Using a Cache Volume
+```
+             +------------------------------------------+
+             | +------------------+                     |
+             | |                  |                     |
+             | |  +-----+         |                     |
+   +--------------> APP +--------------------+          |
+ 0 |         | |  +--+--+         |          |          |
+/|\+         | |     |            |  +-------v--------+ |
+/ \          | |  +--v--+         |  | python2.7 cache| |
+             | |  |REDIS|         |  +----------------+ |
+             | |  +-----+         |                     |
+             | |                  |                     |
+             | | Network: backend |                     |
+             | +------------------+                     |
+             | Docker Host                              |
+             +------------------------------------------+
+
+```
+
+---
 name: try-it-yourself-4
 # Try it yourself #4
 - Run the following commands:
@@ -293,6 +357,26 @@ root@container:/cwd# python app.py
 
 - Does it work without installing the requirements every time?
 
+---
+name: using-a-cache-volume-diagram-2
+# Using a Cache Volume
+```
+             +------------------------------------------+
+             | +------------------+                     |
+             | |XX           XX   |                     |
+             | | XXX----+  XXXX   |                     |
+  ?          | |   XXXP +-XX+     |                     |
+ 0           | |  +--XX-+XX       |                     |
+/|\          | |     |XXX         |  +----------------+ |
+/ \          | |  +--XXXXXX       |  | python2.7 cache| |
+             | |  |XXXIS+ XXX     |  +----------------+ |
+             | | XXX----+   XXX   |                     |
+             | |XX            XXX |                     |
+             | | Network: backend |                     |
+             | +------------------+                     |
+             | Docker Host                              |
+             +------------------------------------------+
+```
 ---
 name: helper-image
 # Using a helper image
