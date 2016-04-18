@@ -3,7 +3,7 @@
 shell:
 	docker-compose run --rm dev bash
 
-install:
+setup:
 	docker-compose run --rm dev pip install -r requirements.txt
 	
 start:

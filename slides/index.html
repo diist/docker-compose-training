@@ -168,20 +168,20 @@ name: linking-redis
 services:
   dev:
     [...]
-*   environment:
-*     REDIS_HOST: redis
-*   depends_on:
+    environment:
+      REDIS_HOST: redis
+    depends_on:
       - redis
-*   networks:
+    networks:
       - backend
 
-* redis:
-*   image: redis
-*   networks:
-*     - backend
+  redis:
+    image: redis
+    networks:
+      - backend
 
-*networks:
-*  backend:
+networks:
+  backend:
 ```
 
 - The `redis` container will start first
@@ -213,8 +213,8 @@ name: exposing-the-ports
 services:
   dev:
     [...]
-*   ports:
-*     - "5000:5000"
+    ports:
+      - "5000:5000"
 
 redis:
   image: redis
@@ -254,16 +254,17 @@ services:
     command: bash
     volumes:
       - ./voting-app:/cwd
-*     - python2.7-cache:/pip-cache
+      - python2.7-cache:/pip-cache
     working_dir: /cwd
     environment:
-*     PYTHONPATH: $PYTHONPATH:/pip-cache
-*     XDG_CACHE_HOME: /pip-cache/downloads
+      PIP_TARGET: /pip-cache
+      PYTHONPATH: $PYTHONPATH:/pip-cache 
+      XDG_CACHE_HOME: /pip-cache/downloads
       REDIS_HOST: redis
 [...]
 
-*volumes:
-*  python2.7-cache:
+volumes:
+  python2.7-cache:
 ```
 
 - Creates volume `python2.7-pip-cache` that will persist after containers die.
@@ -391,29 +392,10 @@ name: try-it-yourself-6
   - Try `docker-compose up`
 
 ---
-name: aws-access
-# AWS Access from Containers
-
-```yaml
-awscli:
-  build: .
-  environment:
-*   AWS_SESSION_TOKEN:
-*   AWS_ACCESS_KEY_ID:
-*   AWS_SECRET_ACCESS_KEY:
-*   AWS_DEFAULT_REGION:
-    IAM_ROLE:
-```
-https://git.realestate.com.au/cbde/awscli-image
-
-- No right hand side means we pass in env vars from host
-- Container has now access to AWS account
-- Good for local testing
-- Another example using KMS locally:
- - https://git.realestate.com.au/cbde/kms-simple-docker
----
 # Questions and Feedback
-- Raise Issue or PR at [docker-compose-training](https://github.com/diist/docker-compose-training)
+- Raise Issue or PR at docker-compose-training: https://github.com/diist/docker-compose-training
+
+- We're hiring! http://careers.realestate.com.au
 
 <link rel="import" href="docker-compose.html" />
 
