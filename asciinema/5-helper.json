@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "width": 108,
-  "height": 37,
-  "duration": 68.748506,
+  "width": 107,
+  "height": 41,
+  "duration": 68.285012,
   "command": "/bin/zsh",
   "title": "",
   "env": {
@@ -11,1331 +11,1659 @@
   },
   "stdout": [
     [
-      0.174490,
-      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                           \r \r"
+      0.173872,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                          \r \r"
     ],
     [
       0.000026,
       "\u001b]2;clement.labbe@VIC018192M: ~/code/docker-compose-training\u0007"
     ],
     [
-      0.000004,
+      0.000031,
       "\u001b]1;..pose-training\u0007"
     ],
     [
-      0.026683,
-      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[01;32m~/code/docker-compose-training\u001b[00m \u001b[01;35m master\u001b[31m⚡\u001b[00m \u001b[01;32m15:06:55\u001b[00m\r\n\u001b[01;32m$\u001b[00m "
-    ],
-    [
-      0.000007,
-      "\u001b[K\u001b[105C\u001b[01;31m\u001b[00m\u001b[105D"
-    ],
-    [
-      0.000125,
-      "\u001b[?1h\u001b="
-    ],
-    [
-      1.246976,
-      "d"
-    ],
-    [
-      0.111187,
-      "\u0008do"
-    ],
-    [
-      0.040444,
-      "c"
-    ],
-    [
-      0.103878,
-      "k"
-    ],
-    [
-      0.032074,
-      "e"
-    ],
-    [
-      0.047831,
-      "r"
-    ],
-    [
-      0.111849,
-      "-"
-    ],
-    [
-      0.167894,
-      "c"
-    ],
-    [
-      0.112180,
-      "o"
-    ],
-    [
-      0.136033,
-      "m"
-    ],
-    [
-      0.183995,
-      "p"
-    ],
-    [
-      0.064237,
-      "o"
-    ],
-    [
-      0.000420,
-      "s"
-    ],
-    [
-      0.079427,
-      "e"
-    ],
-    [
-      0.127619,
-      " "
-    ],
-    [
-      0.224368,
-      "-"
-    ],
-    [
-      0.048045,
-      "f"
-    ],
-    [
-      0.079589,
-      " "
-    ],
-    [
-      0.840128,
-      "d"
-    ],
-    [
-      0.096328,
-      "o"
-    ],
-    [
-      0.055987,
-      "c"
-    ],
-    [
-      0.088003,
-      "k"
-    ],
-    [
-      0.076718,
-      "er-compose"
-    ],
-    [
-      0.947362,
-      "-"
-    ],
-    [
-      0.223680,
-      "5"
-    ],
-    [
-      0.109665,
-      "-helper.yml\u001b[1m \u001b[0m"
-    ],
-    [
-      1.978701,
-      "\u0008\u001b[0m r"
-    ],
-    [
-      0.151633,
-      "u"
-    ],
-    [
-      0.064313,
-      "n"
-    ],
-    [
-      0.119946,
-      " "
-    ],
-    [
-      0.680138,
-      "-"
-    ],
-    [
-      0.111954,
-      "-"
-    ],
-    [
-      0.135993,
-      "r"
-    ],
-    [
-      0.071948,
-      "m"
-    ],
-    [
-      0.095715,
-      " "
-    ],
-    [
-      0.384069,
-      "d"
-    ],
-    [
-      0.080254,
-      "e"
-    ],
-    [
-      0.160027,
-      "v"
-    ],
-    [
-      0.615676,
-      " "
-    ],
-    [
-      0.864382,
-      "p"
-    ],
-    [
-      0.223611,
-      "i"
-    ],
-    [
-      0.144123,
-      "p"
-    ],
-    [
-      0.096046,
-      " "
-    ],
-    [
-      0.119939,
-      "i"
-    ],
-    [
-      0.168330,
-      "n"
-    ],
-    [
-      0.039709,
-      "s"
-    ],
-    [
-      0.111977,
-      "t"
-    ],
-    [
-      0.064016,
-      "a"
-    ],
-    [
-      0.136062,
-      "l"
-    ],
-    [
-      0.096299,
-      "l"
-    ],
-    [
-      0.071748,
-      " "
-    ],
-    [
-      0.183861,
-      "-"
-    ],
-    [
-      0.143920,
-      "r"
-    ],
-    [
-      0.096032,
-      " "
-    ],
-    [
-      0.168213,
-      "r"
-    ],
-    [
-      0.096121,
-      "e"
-    ],
-    [
-      0.238695,
-      "\u0008\u0008README.md\u001b[1m \u001b[0m"
-    ],
-    [
-      0.096930,
-      "\u0008\u001b[0m u"
-    ],
-    [
-      0.552116,
-      "\u0008 \u0008"
-    ],
-    [
-      0.417387,
-      "\u0008"
-    ],
-    [
-      0.033952,
-      "\u0008 \u0008"
-    ],
-    [
-      0.034538,
-      "\u0008 \u0008"
-    ],
-    [
-      0.033349,
-      "\u0008 \u0008"
-    ],
-    [
-      0.036223,
-      "\u0008 \u0008"
-    ],
-    [
-      0.032718,
-      "\u0008 \u0008"
-    ],
-    [
-      0.034703,
-      "\u0008 \u0008"
-    ],
-    [
-      0.034006,
-      "\u0008 \u0008"
-    ],
-    [
-      0.033580,
-      "\u0008 \u0008"
-    ],
-    [
-      0.469752,
-      "\u0008 \u0008"
-    ],
-    [
-      0.256280,
-      "r"
-    ],
-    [
-      0.063521,
-      "e"
-    ],
-    [
-      0.191991,
-      "q"
-    ],
-    [
-      0.096101,
-      "u"
-    ],
-    [
-      0.152307,
-      "i"
-    ],
-    [
-      0.095764,
-      "r"
-    ],
-    [
-      0.096209,
-      "e"
-    ],
-    [
-      0.112018,
-      "m"
-    ],
-    [
-      0.055854,
-      "e"
-    ],
-    [
-      0.096275,
-      "n"
-    ],
-    [
-      0.047319,
-      "t"
-    ],
-    [
-      0.144192,
-      "s"
-    ],
-    [
-      0.096401,
-      "."
-    ],
-    [
-      0.423606,
-      "t"
-    ],
-    [
-      0.168329,
-      "x"
-    ],
-    [
-      0.103558,
-      "t"
-    ],
-    [
-      0.208153,
-      "\u001b[?1l\u001b\u003e"
-    ],
-    [
-      0.000064,
-      "\r\r\n"
-    ],
-    [
-      0.001350,
-      "\u001b]2;docker-compose -f docker-compose-5-helper.yml run --rm dev pip install -r \u0007"
-    ],
-    [
-      0.000022,
-      "\u001b]1;docker-compose\u0007"
-    ],
-    [
-      0.419372,
-      "Creating dockercomposetraining_redis_1\r\n"
-    ],
-    [
-      0.379887,
-      "Building dev\r\n"
-    ],
-    [
-      0.027186,
-      "Step 1 : FROM alpine:3.3\r\n"
-    ],
-    [
-      0.000228,
-      " ---\u003e 70c557e50ed6\r\n"
-    ],
-    [
-      0.000231,
-      "Step 2 : RUN apk add --update       python       py-pip  \u0026\u0026 rm /var/cache/apk/*\r\n"
-    ],
-    [
-      0.078736,
-      " ---\u003e Running in a5f9c1bff871\r\n"
-    ],
-    [
-      0.257194,
-      "fetch http://dl-cdn.alpinelinux.org/alpine/v3.3/main/x86_64/APKINDEX.tar.gz\r\n"
-    ],
-    [
-      2.869244,
-      "fetch http://dl-cdn.alpinelinux.org/alpine/v3.3/community/x86_64/APKINDEX.tar.gz\r\n"
-    ],
-    [
-      0.370277,
-      "(1/12) Installing libbz2 (1.0.6-r4)\r\n"
-    ],
-    [
-      0.040513,
-      "(2/12) Installing expat (2.1.0-r2)\r\n"
-    ],
-    [
-      0.093474,
-      "(3/12) Installing libffi (3.2.1-r2)\r\n"
-    ],
-    [
-      0.122173,
-      "(4/12) Installing gdbm (1.11-r1)\r\n"
-    ],
-    [
-      0.094110,
-      "(5/12) Installing ncurses-terminfo-base (6.0-r6)\r\n"
-    ],
-    [
-      0.074831,
-      "(6/12) Installing ncurses-terminfo (6.0-r6)\r\n"
-    ],
-    [
-      0.791707,
-      "(7/12) Installing ncurses-libs (6.0-r6)\r\n"
-    ],
-    [
-      0.141206,
-      "(8/12) Installing readline (6.3.008-r4)\r\n"
-    ],
-    [
-      0.116642,
-      "(9/12) Installing sqlite-libs (3.9.2-r0)\r\n"
-    ],
-    [
-      0.203176,
-      "(10/12) Installing python (2.7.11-r3)\r\n"
-    ],
-    [
-      5.934389,
-      "(11/12) Installing py-setuptools (18.8-r0)\r\n"
-    ],
-    [
-      0.499683,
-      "(12/12) Installing py-pip (7.1.2-r0)\r\n"
-    ],
-    [
-      1.474297,
-      "Executing busybox-1.24.1-r7.trigger\r\n"
-    ],
-    [
-      0.007498,
-      "OK: 59 MiB in 23 packages\r\n"
-    ],
-    [
-      2.508129,
-      " ---\u003e 88801891600f\r\n"
-    ],
-    [
-      0.097363,
-      "Removing intermediate container a5f9c1bff871\r\n"
-    ],
-    [
-      0.000154,
-      "Step 3 : CMD sh\r\n"
-    ],
-    [
-      0.104117,
-      " ---\u003e Running in 77e6e1efe91f\r\n"
-    ],
-    [
-      0.059678,
-      " ---\u003e bc6f9fac7bc1\r\n"
-    ],
-    [
-      0.004803,
-      "Removing intermediate container 77e6e1efe91f\r\n"
-    ],
-    [
-      0.003912,
-      "Successfully built bc6f9fac7bc1\r\n"
-    ],
-    [
-      0.001003,
-      "\u001b[33mWARNING\u001b[0m: Image for service dev was built because it did not already exist. To rebuild this image you must use `docker-compose build` or `docker-compose up --build`.\r\n"
-    ],
-    [
-      0.598526,
-      "C"
-    ],
-    [
-      0.000230,
-      "ollecting flask (from -r requirements.txt (line 1))\r\n"
-    ],
-    [
-      1.296400,
-      "C"
-    ],
-    [
-      0.000104,
-      "ollecting redis (from -r requirements.txt (line 2))\r\n"
-    ],
-    [
-      0.264082,
-      " "
-    ],
-    [
-      0.000058,
-      " Using cached redis-2.10.5-py2.py3-none-any.whl\r\n"
-    ],
-    [
-      0.006620,
-      "C"
-    ],
-    [
-      0.000072,
-      "ollecting itsdangerous\u003e=0.21 (from flask-\u003e-r requirements.txt (line 1))"
-    ],
-    [
-      0.000075,
-      "\r"
-    ],
-    [
-      0.000046,
-      "\n"
-    ],
-    [
-      0.254205,
-      "C"
-    ],
-    [
-      0.000063,
-      "ollecting Werkzeug\u003e=0.7 (from flask-\u003e-r requirements.txt (line 1))\r\n"
-    ],
-    [
-      0.278696,
-      " "
-    ],
-    [
-      0.000064,
-      " Using cached Werkzeug-0.11.8-py2.py3-none-any.whl"
-    ],
-    [
-      0.000056,
-      "\r"
-    ],
-    [
-      0.000054,
-      "\n"
-    ],
-    [
-      0.016976,
-      "C"
-    ],
-    [
-      0.000091,
-      "ollecting Jinja2\u003e=2.4 (from flask-\u003e-r requirements.txt (line 1))"
-    ],
-    [
-      0.000329,
-      "\r"
-    ],
-    [
-      0.000063,
-      "\n"
-    ],
-    [
-      0.263219,
-      " "
-    ],
-    [
-      0.000063,
-      " Using cached Jinja2-2.8-py2.py3-none-any.whl\r\n"
-    ],
-    [
-      0.012477,
-      "C"
-    ],
-    [
-      0.000130,
-      "ollecting MarkupSafe (from Jinja2\u003e=2.4-\u003eflask-\u003e-r requirements.txt (line 1))"
-    ],
-    [
-      0.000357,
-      "\r"
-    ],
-    [
-      0.000173,
-      "\n"
-    ],
-    [
-      0.254562,
-      "I"
-    ],
-    [
-      0.000073,
-      "nstalling collected packages: itsdangerous, Werkzeug, MarkupSafe, Jinja2, flask, redis"
-    ],
-    [
-      0.000057,
-      "\r"
-    ],
-    [
-      0.000053,
-      "\n"
-    ],
-    [
-      0.395430,
-      "S"
-    ],
-    [
-      0.000083,
-      "uccessfully installed Jinja2-2.8 MarkupSafe-0.23 Werkzeug-0.11.8 flask-0.10.1 itsdangerous-0.24 redis-2.10.5"
-    ],
-    [
-      0.000075,
-      "\r"
-    ],
-    [
-      0.000063,
-      "\n"
-    ],
-    [
-      0.016665,
-      "\u001b"
-    ],
-    [
-      0.000117,
-      "[33mTarget directory /pip-cache/itsdangerous.pyc already exists. Specify --upgrade to force replacement.\u001b[0m\r\n"
-    ],
-    [
-      0.000462,
-      "\u001b"
-    ],
-    [
-      0.000126,
-      "[33mTarget directory /pip-cache/Jinja2-2.8.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m"
-    ],
-    [
-      0.000070,
-      "\r"
-    ],
-    [
-      0.000071,
-      "\n"
-    ],
-    [
-      0.000576,
-      "\u001b"
-    ],
-    [
-      0.000075,
-      "[33mTarget directory /pip-cache/redis already exists. Specify --upgrade to force replacement.\u001b[0m\r\n"
-    ],
-    [
-      0.000590,
-      "\u001b"
-    ],
-    [
-      0.000074,
-      "[33mTarget directory /pip-cache/MarkupSafe-0.23.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m"
-    ],
-    [
-      0.000331,
-      "\r"
-    ],
-    [
-      0.000119,
-      "\n"
-    ],
-    [
-      0.000592,
-      "\u001b"
-    ],
-    [
-      0.000042,
-      "[33mTarget directory /pip-cache/redis-2.10.5.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m"
-    ],
-    [
-      0.000314,
-      "\r"
-    ],
-    [
-      0.000065,
-      "\n"
-    ],
-    [
-      0.000624,
-      "\u001b"
-    ],
-    [
-      0.000084,
-      "[33mTarget directory /pip-cache/itsdangerous-0.24.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m"
-    ],
-    [
-      0.003671,
-      "\r"
-    ],
-    [
-      0.000256,
-      "\n\u001b[33mTarget directory /pip-cache/Flask-0.10.1.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/werkzeug already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/flask already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/markupsafe already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/jinja2 already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/Werkzeug-0.11.8.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/itsdangerous.py already exists. Specify --upgrade to force replacement.\u001b[0m\r\n"
-    ],
-    [
-      0.020733,
-      "\u001b"
-    ],
-    [
-      0.000227,
-      "[33mYou are using pip version 7.1.2, however version 8.1.1 is available.\r\nYou should consider upgrading via the 'pip install --upgrade pip' command.\u001b[0m\r\n"
-    ],
-    [
-      0.441433,
-      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                           \r \r"
-    ],
-    [
-      0.000011,
-      "\u001b]2;clement.labbe@VIC018192M: ~/code/docker-compose-training\u0007"
-    ],
-    [
-      0.000030,
-      "\u001b]1;..pose-training\u0007"
-    ],
-    [
-      0.024356,
-      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[01;32m~/code/docker-compose-training\u001b[00m \u001b[01;35m master\u001b[31m⚡\u001b[00m \u001b[01;32m15:07:33\u001b[00m\r\n\u001b[01;32m$\u001b[00m "
+      0.027029,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[01;32m~/code/docker-compose-training\u001b[00m \u001b[01;35m master\u001b[31m⚡\u001b[00m \u001b[01;32m15:53:00\u001b[00m\r\n\u001b[01;32m$\u001b[00m "
     ],
     [
       0.000006,
-      "\u001b[K\u001b[105C\u001b[01;31m\u001b[00m\u001b[105D"
+      "\u001b[K\u001b[104C\u001b[01;31m\u001b[00m\u001b[104D"
     ],
     [
-      0.000114,
+      0.000202,
       "\u001b[?1h\u001b="
     ],
     [
-      2.653356,
-      "docker-compose -f docker-compose-5-helper.yml run --rm dev pip install -r requirements.txt"
+      0.407762,
+      "d"
     ],
     [
-      1.775252,
-      "\u0008\u0008\u0008   \u0008\u0008\u0008"
+      0.110640,
+      "\u0008do"
     ],
     [
-      0.343830,
-      "\u001b[13D             \u001b[13D"
+      0.063750,
+      "c"
     ],
     [
-      0.384453,
-      "\u0008\u0008 \u0008"
+      0.071986,
+      "k"
     ],
     [
-      0.383688,
-      "\u001b[9D         \u001b[9D"
-    ],
-    [
-      0.367996,
-      "\u0008\u0008\u0008\u0008   \u0008\u0008\u0008"
-    ],
-    [
-      0.888186,
-      "p"
-    ],
-    [
-      0.271798,
-      "y"
-    ],
-    [
-      0.096491,
-      "t"
-    ],
-    [
-      0.127868,
-      "h"
-    ],
-    [
-      0.167546,
-      "o"
-    ],
-    [
-      0.151958,
-      "n"
-    ],
-    [
-      0.064012,
-      " "
-    ],
-    [
-      0.400589,
-      "t"
-    ],
-    [
-      0.223894,
+      0.112678,
       "e"
     ],
     [
-      0.183939,
-      "s"
+      0.055617,
+      "r"
     ],
     [
-      0.071912,
-      "t"
+      0.096252,
+      "-"
     ],
     [
-      0.296188,
-      "."
+      0.200045,
+      "\u0007"
     ],
     [
-      0.247800,
-      "p"
-    ],
-    [
-      0.072208,
-      "y"
-    ],
-    [
-      0.375654,
-      "\u001b[?1l\u001b\u003e"
-    ],
-    [
-      0.000014,
+      0.000034,
       "\r\r\n"
     ],
     [
-      0.001120,
-      "\u001b]2;docker-compose -f docker-compose-5-helper.yml run --rm dev python test.py\u0007"
+      0.000087,
+      "\u001b[J\u001b[0mdocker-compose  \u001b[Jdocker-machine  \u001b[Jdocker-shaball\u001b[J\u001b[A\u001b[0m\u001b[27m\u001b[24m\r\u001b[2C"
     ],
     [
-      0.000007,
-      "\u001b]1;docker-compose\u0007"
+      0.000020,
+      "docker-\u001b[K\u001b[97C\u001b[01;31m\u001b[00m\u001b[97D"
     ],
     [
-      0.981031,
-      "\r"
+      0.544091,
+      "c"
     ],
     [
-      0.000282,
-      "\nWeb App Starting...\r\nConnecting to redis\r\n"
+      0.217159,
+      "ompose\u001b[1m \u001b[0m"
     ],
     [
-      0.001519,
+      1.406689,
+      "\u0008\u001b[0m -"
+    ],
+    [
+      0.159955,
+      "f"
+    ],
+    [
+      0.079912,
+      " "
+    ],
+    [
+      0.135784,
+      "d"
+    ],
+    [
+      0.104497,
+      "o"
+    ],
+    [
+      0.063664,
+      "c"
+    ],
+    [
+      0.079946,
+      "k"
+    ],
+    [
+      0.048231,
+      "e"
+    ],
+    [
+      0.039551,
+      "r"
+    ],
+    [
+      0.120118,
+      "\r\r\n\u001b[J\u001b[A\u001b[26C-compose"
+    ],
+    [
+      0.992099,
+      "-"
+    ],
+    [
+      0.199921,
+      "5"
+    ],
+    [
+      0.117490,
+      "-helper.yml\u001b[1m \u001b[0m"
+    ],
+    [
+      1.074590,
+      "\u0008\u001b[0m r"
+    ],
+    [
+      0.199858,
+      "u"
+    ],
+    [
+      0.064555,
+      "n"
+    ],
+    [
+      0.079783,
+      " "
+    ],
+    [
+      0.680099,
+      "-"
+    ],
+    [
+      0.127668,
+      "-"
+    ],
+    [
+      0.064559,
+      "r"
+    ],
+    [
+      0.135449,
+      "m"
+    ],
+    [
+      0.079923,
+      " "
+    ],
+    [
+      0.504435,
+      "d"
+    ],
+    [
+      0.063712,
+      "e"
+    ],
+    [
+      0.696319,
+      "v"
+    ],
+    [
+      0.271486,
+      " "
+    ],
+    [
+      0.848561,
+      "p"
+    ],
+    [
+      0.103662,
+      "i"
+    ],
+    [
+      0.160188,
+      "p"
+    ],
+    [
+      0.104073,
+      " "
+    ],
+    [
+      0.183752,
+      "i"
+    ],
+    [
+      0.199896,
+      "n"
+    ],
+    [
+      0.048689,
+      "s"
+    ],
+    [
+      0.079695,
+      "t"
+    ],
+    [
+      0.088032,
+      "a"
+    ],
+    [
+      0.120099,
+      "l"
+    ],
+    [
+      0.111990,
+      "l"
+    ],
+    [
+      0.063448,
+      " "
+    ],
+    [
+      0.168128,
+      "-"
+    ],
+    [
+      0.088460,
+      "r"
+    ],
+    [
+      0.087855,
+      " "
+    ],
+    [
+      0.167976,
+      "r"
+    ],
+    [
+      0.055700,
+      "e"
+    ],
+    [
+      0.200004,
+      "q"
+    ],
+    [
+      0.159983,
+      "u"
+    ],
+    [
+      0.160055,
+      "i"
+    ],
+    [
+      0.103847,
+      "r"
+    ],
+    [
+      0.081360,
+      "e"
+    ],
+    [
+      0.510846,
+      "m"
+    ],
+    [
+      0.088327,
+      "e"
+    ],
+    [
+      0.072053,
+      "n"
+    ],
+    [
+      0.072044,
+      "t"
+    ],
+    [
+      0.151528,
+      "s"
+    ],
+    [
+      0.008037,
+      "."
+    ],
+    [
+      0.704140,
+      "t"
+    ],
+    [
+      0.167880,
+      "x"
+    ],
+    [
+      0.128367,
+      "t"
+    ],
+    [
+      0.255650,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000082,
+      "\r\r\n\u001b[J"
+    ],
+    [
+      0.001788,
+      "\u001b]2;docker-compose -f docker-compose-5-helper.yml run --rm dev pip install -r \u0007\u001b]1;docker-compose\u0007"
+    ],
+    [
+      0.412230,
+      "Starting dockercomposetraining_redis_1\r\n"
+    ],
+    [
+      0.902306,
       "C"
     ],
     [
-      0.000168,
-      "onnected to redis"
+      0.000192,
+      "ollecting flask (from -r requirements.txt (line 1))"
     ],
     [
-      0.000231,
+      0.000200,
       "\r"
     ],
     [
-      0.000158,
+      0.000095,
       "\n"
     ],
     [
-      0.002306,
-      "L"
+      0.051506,
+      "C"
     ],
     [
-      0.000165,
-      "istening on port 5000..."
-    ],
-    [
-      0.000170,
-      "\r"
-    ],
-    [
-      0.000173,
-      "\n"
-    ],
-    [
-      0.015118,
-      "\r"
-    ],
-    [
-      0.000090,
-      "\n"
-    ],
-    [
-      0.000264,
-      "*"
-    ],
-    [
-      0.000075,
-      "** Testing that '/' returns HTTP/200 ***"
-    ],
-    [
-      0.000358,
-      "\r"
+      0.000128,
+      "ollecting redis (from -r requirements.txt (line 2))"
     ],
     [
       0.000203,
+      "\r"
+    ],
+    [
+      0.000167,
       "\n"
     ],
     [
-      0.020714,
-      "."
+      0.032055,
+      " "
     ],
     [
-      0.000290,
+      0.000136,
+      " Using cached redis-2.10.5-py2.py3-none-any.whl"
+    ],
+    [
+      0.000077,
       "\r"
     ],
     [
-      0.000114,
-      "\n*** Testing that voting for option a works ***\r\n"
+      0.000267,
+      "\n"
     ],
     [
-      0.008709,
-      "I"
+      0.009535,
+      "Collecting itsdangerous\u003e=0.21 (from flask-\u003e-r requirements.txt (line 1))\r\n"
     ],
     [
-      0.000323,
-      "nserting a vote for option a in Redis!\r\n"
+      0.025020,
+      "C"
     ],
     [
-      0.010623,
-      "."
+      0.000225,
+      "ollecting Werkzeug\u003e=0.7 (from flask-\u003e-r requirements.txt (line 1))\r\n"
     ],
     [
-      0.000141,
+      0.054442,
+      " "
+    ],
+    [
+      0.000065,
+      " Using cached Werkzeug-0.11.8-py2.py3-none-any.whl"
+    ],
+    [
+      0.000522,
       "\r"
     ],
     [
-      0.000114,
-      "\n*** Testing that voting for option b works ***\r\n"
+      0.000117,
+      "\n"
     ],
     [
-      0.159956,
+      0.017304,
+      "C"
+    ],
+    [
+      0.000060,
+      "ollecting Jinja2\u003e=2.4 (from flask-\u003e-r requirements.txt (line 1))"
+    ],
+    [
+      0.000485,
+      "\r"
+    ],
+    [
+      0.000120,
+      "\n"
+    ],
+    [
+      0.032662,
+      " "
+    ],
+    [
+      0.000066,
+      " Using cached Jinja2-2.8-py2.py3-none-any.whl"
+    ],
+    [
+      0.000486,
+      "\r"
+    ],
+    [
+      0.000259,
+      "\n"
+    ],
+    [
+      0.016591,
+      "C"
+    ],
+    [
+      0.000206,
+      "ollecting MarkupSafe (from Jinja2\u003e=2.4-\u003eflask-\u003e-r requirements.txt (line 1))\r\n"
+    ],
+    [
+      0.016824,
       "I"
     ],
     [
-      0.000009,
-      "nserting a vote for option b in Redis!\r\n"
+      0.000012,
+      "nstalling collected packages: itsdangerous, Werkzeug, MarkupSafe, Jinja2, flask, redis\r\n"
     ],
     [
-      0.000433,
-      ".\r\n----------------------------------------------------------------------\r\nRan 3 tests in 0.062s\r\n\r\nOK\r\n"
+      0.439192,
+      "S"
     ],
     [
-      0.287474,
-      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                           \r \r"
+      0.000086,
+      "uccessfully installed Jinja2-2.8 MarkupSafe-0.23 Werkzeug-0.11.8 flask-0.10.1 itsdangerous-0.24 redis-2.10.5\r\n"
     ],
     [
-      0.000154,
+      0.013472,
+      "\u001b"
+    ],
+    [
+      0.000077,
+      "[33mTarget directory /pip-cache/itsdangerous.pyc already exists. Specify --upgrade to force replacement.\u001b[0m\r\n"
+    ],
+    [
+      0.000349,
+      "\u001b"
+    ],
+    [
+      0.000083,
+      "[33mTarget directory /pip-cache/Jinja2-2.8.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/redis already exists. Specify --upgrade to force replacement.\u001b[0m\r\n"
+    ],
+    [
+      0.000609,
+      "\u001b"
+    ],
+    [
+      0.000176,
+      "[33mTarget directory /pip-cache/MarkupSafe-0.23.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m"
+    ],
+    [
+      0.000333,
+      "\r"
+    ],
+    [
+      0.000143,
+      "\n"
+    ],
+    [
+      0.000314,
+      "\u001b"
+    ],
+    [
+      0.000189,
+      "[33mTarget directory /pip-cache/redis-2.10.5.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m\r\n"
+    ],
+    [
+      0.000281,
+      "\u001b"
+    ],
+    [
+      0.000173,
+      "[33mTarget directory /pip-cache/itsdangerous-0.24.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m\r\n"
+    ],
+    [
+      0.000280,
+      "\u001b"
+    ],
+    [
+      0.000156,
+      "[33mTarget directory /pip-cache/Flask-0.10.1.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m\r\n"
+    ],
+    [
+      0.000343,
+      "\u001b"
+    ],
+    [
+      0.000173,
+      "[33mTarget directory /pip-cache/werkzeug already exists. Specify --upgrade to force replacement.\u001b[0m\r\n"
+    ],
+    [
+      0.000335,
+      "\u001b"
+    ],
+    [
+      0.000055,
+      "[33mTarget directory /pip-cache/flask already exists. Specify --upgrade to force replacement.\u001b[0m\r\n"
+    ],
+    [
+      0.000375,
+      "\u001b"
+    ],
+    [
+      0.000313,
+      "[33mTarget directory /pip-cache/markupsafe already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/jinja2 already exists. Specify --upgrade to force replacement.\u001b[0m\r\n"
+    ],
+    [
+      0.000326,
+      "\u001b"
+    ],
+    [
+      0.000214,
+      "[33mTarget directory /pip-cache/Werkzeug-0.11.8.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/itsdangerous.py already exists. Specify --upgrade to force replacement.\u001b[0m\r\n"
+    ],
+    [
+      0.019908,
+      "\u001b"
+    ],
+    [
+      0.000110,
+      "[33mYou are using pip version 7.1.2, however version 8.1.1 is available.\r\nYou should consider upgrading via the 'pip install --upgrade pip' command.\u001b[0m\r\n"
+    ],
+    [
+      0.407528,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                          \r \r"
+    ],
+    [
+      0.000341,
       "\u001b]2;clement.labbe@VIC018192M: ~/code/docker-compose-training\u0007\u001b]1;..pose-training\u0007"
     ],
     [
-      0.023736,
-      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[01;32m~/code/docker-compose-training\u001b[00m \u001b[01;35m master\u001b[31m⚡\u001b[00m \u001b[01;32m15:07:44\u001b[00m\r\n\u001b[01;32m$\u001b[00m "
+      0.023692,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[01;32m~/code/docker-compose-training\u001b[00m \u001b[01;35m master\u001b[31m⚡\u001b[00m \u001b[01;32m15:53:18\u001b[00m\r\n\u001b[01;32m$\u001b[00m "
     ],
     [
-      0.000008,
-      "\u001b[K\u001b[105C\u001b[01;31m\u001b[00m\u001b[105D"
+      0.000007,
+      "\u001b[K\u001b[104C\u001b[01;31m\u001b[00m\u001b[104D"
+    ],
+    [
+      0.000088,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      2.402257,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000043,
+      "\r\r\n"
+    ],
+    [
+      0.000545,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                          \r \r"
+    ],
+    [
+      0.000123,
+      "\u001b]2;clement.labbe@VIC018192M: ~/code/docker-compose-training\u0007"
+    ],
+    [
+      0.000034,
+      "\u001b]1;..pose-training\u0007"
+    ],
+    [
+      0.021939,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[01;32m~/code/docker-compose-training\u001b[00m \u001b[01;35m master\u001b[31m⚡\u001b[00m \u001b[01;32m15:53:20\u001b[00m\r\n\u001b[01;32m$\u001b[00m "
+    ],
+    [
+      0.000007,
+      "\u001b[K\u001b[104C\u001b[01;31m\u001b[00m\u001b[104D"
+    ],
+    [
+      0.000129,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      1.529212,
+      "docker-compose -f docker-compose-5-helper.yml run --rm dev pip install -r requirements.txt"
+    ],
+    [
+      1.383590,
+      "\u0008\u0008\u0008   \u0008\u0008\u0008"
+    ],
+    [
+      0.392121,
+      "\u001b[13D             \u001b[13D"
+    ],
+    [
+      0.344024,
+      "\u0008\u0008 \u0008"
+    ],
+    [
+      0.544238,
+      "\u001b[9D         \u001b[9D"
+    ],
+    [
+      0.583783,
+      "\u0008\u0008\u0008\u0008   \u0008\u0008\u0008"
+    ],
+    [
+      2.272485,
+      "p"
+    ],
+    [
+      0.271938,
+      "y"
+    ],
+    [
+      0.112066,
+      "t"
+    ],
+    [
+      0.095924,
+      "h"
+    ],
+    [
+      0.111893,
+      "o"
+    ],
+    [
+      0.175862,
+      "n"
+    ],
+    [
+      0.480223,
+      " "
+    ],
+    [
+      0.456065,
+      "a"
+    ],
+    [
+      0.207753,
+      "p"
+    ],
+    [
+      0.103907,
+      "p"
+    ],
+    [
+      1.952080,
+      "\u0008 \u0008"
+    ],
+    [
+      0.271944,
+      "\u0008 \u0008"
+    ],
+    [
+      0.208073,
+      "\u0008 \u0008"
+    ],
+    [
+      0.504333,
+      "t"
+    ],
+    [
+      0.183724,
+      "e"
+    ],
+    [
+      0.176304,
+      "s"
+    ],
+    [
+      0.103698,
+      "t"
+    ],
+    [
+      0.111976,
+      "."
+    ],
+    [
+      0.207898,
+      "p"
+    ],
+    [
+      0.048412,
+      "y"
+    ],
+    [
+      0.263680,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000039,
+      "\r\r\n"
+    ],
+    [
+      0.001106,
+      "\u001b]2;docker-compose -f docker-compose-5-helper.yml run --rm dev python test.py\u0007"
+    ],
+    [
+      0.000006,
+      "\u001b]1;docker-compose\u0007"
+    ],
+    [
+      1.696404,
+      "\r"
+    ],
+    [
+      0.000078,
+      "\nWeb App Starting...\r\n"
+    ],
+    [
+      0.000863,
+      "C"
+    ],
+    [
+      0.000193,
+      "onnecting to redis\r\n"
+    ],
+    [
+      0.000914,
+      "C"
+    ],
+    [
+      0.000192,
+      "onnected to redis"
+    ],
+    [
+      0.000385,
+      "\r\n"
+    ],
+    [
+      0.002234,
+      "L"
+    ],
+    [
+      0.000191,
+      "istening on port 5000..."
+    ],
+    [
+      0.000313,
+      "\r"
+    ],
+    [
+      0.000156,
+      "\n"
+    ],
+    [
+      0.014747,
+      "\r"
+    ],
+    [
+      0.000117,
+      "\n"
+    ],
+    [
+      0.000175,
+      "*"
+    ],
+    [
+      0.000113,
+      "** Testing that '/' returns HTTP/200 ***\r\n"
+    ],
+    [
+      0.019492,
+      "."
+    ],
+    [
+      0.000216,
+      "\r\n*** Testing that voting for option a works ***\r\n"
+    ],
+    [
+      0.007540,
+      "I"
+    ],
+    [
+      0.000080,
+      "nserting a vote for option a in Redis!\r\n"
+    ],
+    [
+      0.010310,
+      "."
+    ],
+    [
+      0.000061,
+      "\r"
+    ],
+    [
+      0.000150,
+      "\n*** Testing that voting for option b works ***\r\n"
+    ],
+    [
+      0.005009,
+      "I"
+    ],
+    [
+      0.000094,
+      "nserting a vote for option b in Redis!\r\n"
+    ],
+    [
+      0.006122,
+      "."
+    ],
+    [
+      0.000122,
+      "\r\n----------------------------------------------------------------------\r\n"
+    ],
+    [
+      0.000117,
+      "R"
+    ],
+    [
+      0.000136,
+      "an 3 tests in 0.058s\r\n\r\nOK\r\n"
+    ],
+    [
+      0.451686,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                          \r \r"
+    ],
+    [
+      0.000011,
+      "\u001b]2;clement.labbe@VIC018192M: ~/code/docker-compose-training\u0007\u001b]1;..pose-training\u0007"
+    ],
+    [
+      0.023966,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[01;32m~/code/docker-compose-training\u001b[00m \u001b[01;35m master\u001b[31m⚡\u001b[00m \u001b[01;32m15:53:35\u001b[00m\r\n\u001b[01;32m$\u001b[00m "
+    ],
+    [
+      0.000007,
+      "\u001b[K\u001b[104C\u001b[01;31m\u001b[00m\u001b[104D"
     ],
     [
       0.000109,
       "\u001b[?1h\u001b="
     ],
     [
-      2.604071,
-      "docker-compose -f docker-compose-5-helper.yml run --rm dev python test.py"
-    ],
-    [
-      1.296096,
-      "\u0008\u0008  \u0008\u0008"
-    ],
-    [
-      0.415758,
-      "\u0008\u0008\u0008\u0008\u0008     \u0008\u0008\u0008\u0008\u0008"
-    ],
-    [
-      0.327934,
-      "\u0008\u0008\u0008\u0008\u0008\u0008\u0008      \u0008\u0008\u0008\u0008\u0008\u0008"
-    ],
-    [
-      2.279879,
-      "\u0008\u0008\u0008\u0008   \u0008\u0008\u0008"
-    ],
-    [
-      0.656529,
-      "-"
-    ],
-    [
-      0.103651,
-      "-"
-    ],
-    [
-      0.056023,
-      "s"
-    ],
-    [
-      0.152313,
-      "e"
-    ],
-    [
-      0.071599,
-      "r"
-    ],
-    [
-      0.184392,
-      "v"
-    ],
-    [
-      0.087714,
-      "i"
-    ],
-    [
-      0.095761,
-      "c"
-    ],
-    [
-      0.096341,
-      "e"
-    ],
-    [
-      0.183903,
-      "-"
-    ],
-    [
-      0.342825,
-      "ports\u001b[1m \u001b[0m"
-    ],
-    [
-      0.665453,
-      "\u0008\u001b[0m d"
-    ],
-    [
-      0.120022,
-      "e"
-    ],
-    [
-      0.119978,
-      "v"
-    ],
-    [
-      0.095676,
-      " "
-    ],
-    [
-      0.519952,
-      "p"
-    ],
-    [
-      0.240494,
-      "y"
-    ],
-    [
-      0.063961,
-      "t"
-    ],
-    [
-      0.112089,
-      "h"
-    ],
-    [
-      0.159894,
-      "o"
-    ],
-    [
-      0.104070,
-      "n"
-    ],
-    [
-      0.071584,
-      " "
-    ],
-    [
-      0.232396,
-      "a"
-    ],
-    [
-      0.095662,
-      "p"
-    ],
-    [
-      0.112266,
-      "p"
-    ],
-    [
-      0.184175,
-      "."
-    ],
-    [
-      0.183472,
-      "p"
-    ],
-    [
-      0.120448,
-      "y"
-    ],
-    [
-      0.319651,
+      1.748850,
       "\u001b[?1l\u001b\u003e"
     ],
     [
-      0.000038,
+      0.000041,
       "\r\r\n"
     ],
     [
-      0.001089,
-      "\u001b]2;docker-compose -f docker-compose-5-helper.yml run --rm --service-ports dev  \u0007"
+      0.000534,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                          \r \r"
     ],
     [
-      0.000008,
-      "\u001b]1;docker-compose\u0007"
-    ],
-    [
-      1.453642,
-      "\r"
-    ],
-    [
-      0.000126,
-      "\nWeb App Starting...\r\nConnecting to redis\r\n"
-    ],
-    [
-      0.001722,
-      "C"
-    ],
-    [
-      0.000007,
-      "onnected to redis\r\n"
-    ],
-    [
-      0.002309,
-      "L"
-    ],
-    [
-      0.000212,
-      "istening on port 5000...\r\n"
-    ],
-    [
-      0.010933,
-      " "
-    ],
-    [
-      0.000178,
-      "* Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)"
-    ],
-    [
-      0.000160,
-      "\r"
-    ],
-    [
-      0.000201,
-      "\n"
-    ],
-    [
-      0.007773,
-      " "
-    ],
-    [
-      0.000081,
-      "* Restarting with stat\r\n"
-    ],
-    [
-      0.180557,
-      "\r"
-    ],
-    [
-      0.000080,
-      "\n"
-    ],
-    [
-      0.000197,
-      "Web App Starting..."
-    ],
-    [
-      0.000253,
-      "\r"
-    ],
-    [
-      0.000146,
-      "\n"
-    ],
-    [
-      0.000202,
-      "C"
-    ],
-    [
-      0.000204,
-      "onnecting to redis"
-    ],
-    [
-      0.000132,
-      "\r\n"
-    ],
-    [
-      0.001727,
-      "C"
-    ],
-    [
-      0.000091,
-      "onnected to redis\r\n"
-    ],
-    [
-      0.001856,
-      "L"
-    ],
-    [
-      0.000226,
-      "istening on port 5000..."
-    ],
-    [
-      0.000099,
-      "\r"
-    ],
-    [
-      0.000169,
-      "\n"
-    ],
-    [
-      0.012130,
-      " "
-    ],
-    [
-      0.000100,
-      "* Debugger is active!\r\n"
-    ],
-    [
-      0.013920,
-      " "
-    ],
-    [
-      0.000139,
-      "* Debugger pin code: 402-704-061"
-    ],
-    [
-      0.000162,
-      "\r"
-    ],
-    [
-      0.000103,
-      "\n"
-    ],
-    [
-      1.646717,
-      "\r"
-    ],
-    [
-      0.000221,
-      "\n"
-    ],
-    [
-      0.127623,
-      "\r"
-    ],
-    [
-      0.000183,
-      "\n"
-    ],
-    [
-      1.135846,
-      "c"
-    ],
-    [
-      0.111184,
-      "o"
-    ],
-    [
-      0.088294,
-      "o"
-    ],
-    [
-      0.183825,
-      "l"
-    ],
-    [
-      0.088592,
-      "\r"
-    ],
-    [
-      0.000228,
-      "\n"
-    ],
-    [
-      1.147271,
-      "^"
-    ],
-    [
-      0.000668,
-      "C"
-    ],
-    [
-      0.434461,
-      "^D\u0008\u0008"
-    ],
-    [
-      0.056159,
-      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                           \r \r"
-    ],
-    [
-      0.000159,
+      0.000136,
       "\u001b]2;clement.labbe@VIC018192M: ~/code/docker-compose-training\u0007"
     ],
     [
-      0.000018,
+      0.000027,
       "\u001b]1;..pose-training\u0007"
     ],
     [
-      0.024325,
-      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[01;32m~/code/docker-compose-training\u001b[00m \u001b[01;35m master\u001b[31m⚡\u001b[00m \u001b[01;32m15:08:04\u001b[00m\r\n\u001b[01;32m$\u001b[00m "
+      0.021795,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[01;32m~/code/docker-compose-training\u001b[00m \u001b[01;35m master\u001b[31m⚡\u001b[00m \u001b[01;32m15:53:37\u001b[00m\r\n\u001b[01;32m$\u001b[00m "
     ],
     [
-      0.000007,
-      "\u001b[K\u001b[105C\u001b[01;31m\u001b[00m\u001b[105D"
+      0.000006,
+      "\u001b[K\u001b[104C\u001b[01;31m\u001b[00m\u001b[104D"
     ],
     [
-      0.000094,
+      0.000177,
       "\u001b[?1h\u001b="
     ],
     [
-      0.000052,
+      1.553104,
+      "docker-compose -f docker-compose-5-helper.yml run --rm dev python test.py"
+    ],
+    [
+      0.936343,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000061,
+      "\r\r\n"
+    ],
+    [
+      0.000876,
+      "\u001b]2;docker-compose -f docker-compose-5-helper.yml run --rm dev python test.py\u0007"
+    ],
+    [
+      0.000009,
+      "\u001b]1;docker-compose\u0007"
+    ],
+    [
+      0.944171,
+      "\r"
+    ],
+    [
+      0.000089,
+      "\nWeb App Starting...\r\nConnecting to redis\r\n"
+    ],
+    [
+      0.001840,
+      "C"
+    ],
+    [
+      0.000074,
+      "onnected to redis\r\n"
+    ],
+    [
+      0.002467,
+      "L"
+    ],
+    [
+      0.000171,
+      "istening on port 5000..."
+    ],
+    [
+      0.000094,
+      "\r"
+    ],
+    [
+      0.000038,
+      "\n"
+    ],
+    [
+      0.013273,
+      "\r"
+    ],
+    [
+      0.000118,
+      "\n"
+    ],
+    [
+      0.000331,
+      "*"
+    ],
+    [
+      0.000222,
+      "** Testing that '/' returns HTTP/200 ***"
+    ],
+    [
+      0.000329,
+      "\r"
+    ],
+    [
+      0.000089,
+      "\n"
+    ],
+    [
+      0.017734,
+      "."
+    ],
+    [
+      0.000528,
+      "\r\n*** Testing that voting for option a works ***\r\n"
+    ],
+    [
+      0.006407,
+      "I"
+    ],
+    [
+      0.000075,
+      "nserting a vote for option a in Redis!"
+    ],
+    [
+      0.000054,
+      "\r"
+    ],
+    [
+      0.000049,
+      "\n"
+    ],
+    [
+      0.007591,
+      "."
+    ],
+    [
+      0.000264,
+      "\r"
+    ],
+    [
+      0.000152,
+      "\n"
+    ],
+    [
+      0.000252,
+      "*"
+    ],
+    [
+      0.000114,
+      "** Testing that voting for option b works ***"
+    ],
+    [
+      0.000155,
+      "\r"
+    ],
+    [
+      0.000111,
+      "\n"
+    ],
+    [
+      0.010160,
+      "I"
+    ],
+    [
+      0.000220,
+      "nserting a vote for option b in Redis!\r\n"
+    ],
+    [
+      0.006915,
+      "."
+    ],
+    [
+      0.000407,
+      "\r"
+    ],
+    [
+      0.000095,
+      "\n----------------------------------------------------------------------\r\nRan 3 tests in 0.059s\r\n\r\nOK\r\n"
+    ],
+    [
+      0.429203,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                          \r \r"
+    ],
+    [
+      0.000162,
+      "\u001b]2;clement.labbe@VIC018192M: ~/code/docker-compose-training\u0007\u001b]1;..pose-training\u0007"
+    ],
+    [
+      0.022758,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[01;32m~/code/docker-compose-training\u001b[00m \u001b[01;35m master\u001b[31m⚡\u001b[00m \u001b[01;32m15:53:41\u001b[00m\r\n\u001b[01;32m$\u001b[00m "
+    ],
+    [
+      0.000006,
+      "\u001b[K\u001b[104C\u001b[01;31m\u001b[00m\u001b[104D"
+    ],
+    [
+      0.000144,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      5.692744,
+      "docker-compose -f docker-compose-5-helper.yml run --rm dev python test.py"
+    ],
+    [
+      1.359257,
+      "\u0008\u0008  \u0008\u0008"
+    ],
+    [
+      0.352389,
+      "\u0008\u0008\u0008\u0008\u0008     \u0008\u0008\u0008\u0008\u0008"
+    ],
+    [
+      0.320046,
+      "\u0008\u0008\u0008\u0008\u0008\u0008\u0008      \u0008\u0008\u0008\u0008\u0008\u0008"
+    ],
+    [
+      0.343720,
+      "\u0008\u0008\u0008\u0008   \u0008\u0008\u0008"
+    ],
+    [
+      0.336190,
+      "\u0008\u0008\u0008  \u0008\u0008"
+    ],
+    [
+      0.343843,
+      "\u0008\u0008\u0008\u0008\u0008\u0008      \u0008\u0008\u0008\u0008\u0008\u0008"
+    ],
+    [
+      2.616368,
+      "u"
+    ],
+    [
+      0.343705,
+      "p"
+    ],
+    [
+      2.008067,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000041,
+      "\r\r\n"
+    ],
+    [
+      0.001123,
+      "\u001b]2;docker-compose -f docker-compose-5-helper.yml up\u0007"
+    ],
+    [
+      0.000007,
+      "\u001b]1;docker-compose\u0007"
+    ],
+    [
+      0.430431,
+      "dockercomposetraining_redis_1 is up-to-date\r\n"
+    ],
+    [
+      0.001367,
+      "Recreating dockercomposetraining_dev_1\r\n"
+    ],
+    [
+      0.415912,
+      "Attaching to dockercomposetraining_redis_1, dockercomposetraining_dev_1\r\n"
+    ],
+    [
+      0.077873,
+      "\u001b[36mredis_1  |\u001b[0m 1:C 18 Apr 05:07:13.614 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf\r\n"
+    ],
+    [
+      0.000029,
+      "\u001b[36mredis_1  |\u001b[0m                 _._                                                  \r\n"
+    ],
+    [
+      0.000005,
+      "\u001b[36mredis_1  |\u001b[0m            _.-``__ ''-._                                             \r\n"
+    ],
+    [
+      0.000025,
+      "\u001b[36mredis_1  |\u001b[0m       _.-``    `.  `_.  ''-._           Redis 3.0.6 (00000000/0) 64 bit\r\n"
+    ],
+    [
+      0.000012,
+      "\u001b[36mredis_1  |\u001b[0m   .-`` .-```.  ```\\/    _.,_ ''-._                                   \r\n"
+    ],
+    [
+      0.000019,
+      "\u001b[36mredis_1  |\u001b[0m  (    '      ,       .-`  | `,    )     Running in standalone mode\r\n"
+    ],
+    [
+      0.000018,
+      "\u001b[36mredis_1  |\u001b[0m  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379\r\n"
+    ],
+    [
+      0.000027,
+      "\u001b[36mredis_1  |\u001b[0m  |    `-._   `._    /     _.-'    |     PID: 1\r\n"
+    ],
+    [
+      0.000006,
+      "\u001b[36mredis_1  |\u001b[0m   `-._    `-._  `-./  _.-'    _.-'                                   \r\n"
+    ],
+    [
+      0.000026,
+      "\u001b[36mredis_1  |\u001b[0m  |`-._`-._    `-.__.-'    _.-'_.-'|                                  \r\n"
+    ],
+    [
+      0.000017,
+      "\u001b[36mredis_1  |\u001b[0m  |    `-._`-._        _.-'_.-'    |           http://redis.io        \r\n"
+    ],
+    [
+      0.000020,
+      "\u001b[36mredis_1  |\u001b[0m   `-._    `-._`-.__.-'_.-'    _.-'                                   \r\n"
+    ],
+    [
+      0.000017,
+      "\u001b[36mredis_1  |\u001b[0m  |`-._`-._    `-.__.-'    _.-'_.-'|                                  \r\n"
+    ],
+    [
+      0.000019,
+      "\u001b[36mredis_1  |\u001b[0m  |    `-._`-._        _.-'_.-'    |                                  \r\n"
+    ],
+    [
+      0.000016,
+      "\u001b[36mredis_1  |\u001b[0m   `-._    `-._`-.__.-'_.-'    _.-'                                   \r\n"
+    ],
+    [
+      0.000070,
+      "\u001b[36mredis_1  |\u001b[0m       `-._    `-.__.-'    _.-'                                       \r\n\u001b[36mredis_1  |\u001b[0m           `-._        _.-'                                           \r\n"
+    ],
+    [
+      0.000006,
+      "\u001b[36mredis_1  |\u001b[0m               `-.__.-'                                               \r\n\u001b[36mredis_1  |\u001b[0m \r\n"
+    ],
+    [
+      0.000014,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:07:13.615 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.\r\n"
+    ],
+    [
+      0.000037,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:07:13.615 # Server started, Redis version 3.0.6\r\n"
+    ],
+    [
+      0.000033,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:07:13.615 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.\r\n"
+    ],
+    [
+      0.000085,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:07:13.615 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never \u003e /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.\r\n"
+    ],
+    [
+      0.000031,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:07:13.615 * The server is now ready to accept connections on port 6379\r\n\u001b[36mredis_1  |\u001b[0m 1:signal-handler (1460958234) Received SIGTERM scheduling shutdown...\r\n\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:43:54.450 # User requested shutdown...\r\n\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:43:54.450 * Saving the final RDB snapshot before exiting.\r\n"
+    ],
+    [
+      0.000012,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:43:54.452 * DB saved on disk\r\n"
+    ],
+    [
+      0.000005,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:43:54.452 # Redis is now ready to exit, bye bye...\r\n"
+    ],
+    [
+      0.000024,
+      "\u001b[36mredis_1  |\u001b[0m 1:C 18 Apr 05:44:39.117 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf\r\n"
+    ],
+    [
+      0.000018,
+      "\u001b[36mredis_1  |\u001b[0m                 _._                                                  \r\n"
+    ],
+    [
+      0.000047,
+      "\u001b[36mredis_1  |\u001b[0m            _.-``__ ''-._                                             \r\n"
+    ],
+    [
+      0.000005,
+      "\u001b[36mredis_1  |\u001b[0m       _.-``    `.  `_.  ''-._           Redis 3.0.6 (00000000/0) 64 bit\r\n"
+    ],
+    [
+      0.000004,
+      "\u001b[36mredis_1  |\u001b[0m   .-`` .-```.  ```\\/    _.,_ ''-._                                   \r\n"
+    ],
+    [
+      0.000026,
+      "\u001b[36mredis_1  |\u001b[0m  (    '      ,       .-`  | `,    )     Running in standalone mode\r\n"
+    ],
+    [
+      0.000017,
+      "\u001b[36mredis_1  |\u001b[0m  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379\r\n"
+    ],
+    [
+      0.000017,
+      "\u001b[36mredis_1  |\u001b[0m  |    `-._   `._    /     _.-'    |     PID: 1\r\n"
+    ],
+    [
+      0.000021,
+      "\u001b[36mredis_1  |\u001b[0m   `-._    `-._  `-./  _.-'    _.-'                                   \r\n"
+    ],
+    [
+      0.000017,
+      "\u001b[36mredis_1  |\u001b[0m  |`-._`-._    `-.__.-'    _.-'_.-'|                                  \r\n"
+    ],
+    [
+      0.000028,
+      "\u001b[36mredis_1  |\u001b[0m  |    `-._`-._        _.-'_.-'    |           http://redis.io        \r\n"
+    ],
+    [
+      0.000011,
+      "\u001b[36mredis_1  |\u001b[0m   `-._    `-._`-.__.-'_.-'    _.-'                                   \r\n"
+    ],
+    [
+      0.000026,
+      "\u001b[36mredis_1  |\u001b[0m  |`-._`-._    `-.__.-'    _.-'_.-'|                                  \r\n"
+    ],
+    [
+      0.000014,
+      "\u001b[36mredis_1  |\u001b[0m  |    `-._`-._        _.-'_.-'    |                                  \r\n"
+    ],
+    [
+      0.000018,
+      "\u001b[36mredis_1  |\u001b[0m   `-._    `-._`-.__.-'_.-'    _.-'                                   \r\n"
+    ],
+    [
+      0.000021,
+      "\u001b[36mredis_1  |\u001b[0m       `-._    `-.__.-'    _.-'                                       \r\n"
+    ],
+    [
+      0.000058,
+      "\u001b[36mredis_1  |\u001b[0m           `-._        _.-'                                           \r\n\u001b[36mredis_1  |\u001b[0m               `-.__.-'                                               \r\n\u001b[36mredis_1  |\u001b[0m \r\n"
+    ],
+    [
+      0.000017,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:44:39.118 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.\r\n"
+    ],
+    [
+      0.000023,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:44:39.118 # Server started, Redis version 3.0.6\r\n"
+    ],
+    [
+      0.000021,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:44:39.118 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.\r\n"
+    ],
+    [
+      0.000081,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:44:39.118 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never \u003e /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.\r\n"
+    ],
+    [
+      0.000012,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:44:39.118 * DB loaded from disk: 0.000 seconds\r\n\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:44:39.119 * The server is now ready to accept connections on port 6379\r\n\u001b[36mredis_1  |\u001b[0m 1:signal-handler (1460958280) Received SIGTERM scheduling shutdown...\r\n\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:44:40.102 # User requested shutdown...\r\n"
+    ],
+    [
+      0.000012,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:44:40.102 * Saving the final RDB snapshot before exiting.\r\n"
+    ],
+    [
+      0.000014,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:44:40.106 * DB saved on disk\r\n"
+    ],
+    [
+      0.000015,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:44:40.106 # Redis is now ready to exit, bye bye...\r\n"
+    ],
+    [
+      0.000019,
+      "\u001b[36mredis_1  |\u001b[0m 1:C 18 Apr 05:46:02.783 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf\r\n"
+    ],
+    [
+      0.000018,
+      "\u001b[36mredis_1  |\u001b[0m                 _._                                                  \r\n"
+    ],
+    [
+      0.000042,
+      "\u001b[36mredis_1  |\u001b[0m            _.-``__ ''-._                                             \r\n"
+    ],
+    [
+      0.000005,
+      "\u001b[36mredis_1  |\u001b[0m       _.-``    `.  `_.  ''-._           Redis 3.0.6 (00000000/0) 64 bit\r\n"
+    ],
+    [
+      0.000004,
+      "\u001b[36mredis_1  |\u001b[0m   .-`` .-```.  ```\\/    _.,_ ''-._                                   \r\n"
+    ],
+    [
+      0.000024,
+      "\u001b[36mredis_1  |\u001b[0m  (    '      ,       .-`  | `,    )     Running in standalone mode\r\n"
+    ],
+    [
+      0.000014,
+      "\u001b[36mredis_1  |\u001b[0m  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379\r\n"
+    ],
+    [
+      0.000018,
+      "\u001b[36mredis_1  |\u001b[0m  |    `-._   `._    /     _.-'    |     PID: 1\r\n"
+    ],
+    [
+      0.000018,
+      "\u001b[36mredis_1  |\u001b[0m   `-._    `-._  `-./  _.-'    _.-'                                   \r\n"
+    ],
+    [
+      0.000016,
+      "\u001b[36mredis_1  |\u001b[0m  |`-._`-._    `-.__.-'    _.-'_.-'|                                  \r\n"
+    ],
+    [
+      0.000024,
+      "\u001b[36mredis_1  |\u001b[0m  |    `-._`-._        _.-'_.-'    |           http://redis.io        \r\n"
+    ],
+    [
+      0.000016,
+      "\u001b[36mredis_1  |\u001b[0m   `-._    `-._`-.__.-'_.-'    _.-'                                   \r\n"
+    ],
+    [
+      0.000025,
+      "\u001b[36mredis_1  |\u001b[0m  |`-._`-._    `-.__.-'    _.-'_.-'|                                  \r\n"
+    ],
+    [
+      0.000013,
+      "\u001b[36mredis_1  |\u001b[0m  |    `-._`-._        _.-'_.-'    |                                  \r\n"
+    ],
+    [
+      0.000051,
+      "\u001b[36mredis_1  |\u001b[0m   `-._    `-._`-.__.-'_.-'    _.-'                                   \r\n"
+    ],
+    [
+      0.000029,
+      "\u001b[36mredis_1  |\u001b[0m       `-._    `-.__.-'    _.-'                                       \r\n"
+    ],
+    [
+      0.000018,
+      "\u001b[36mredis_1  |\u001b[0m           `-._        _.-'                                           \r\n"
+    ],
+    [
+      0.000022,
+      "\u001b[36mredis_1  |\u001b[0m               `-.__.-'                                               \r\n"
+    ],
+    [
+      0.000018,
+      "\u001b[36mredis_1  |\u001b[0m \r\n"
+    ],
+    [
+      0.000022,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:46:02.784 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.\r\n"
+    ],
+    [
+      0.000034,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:46:02.784 # Server started, Redis version 3.0.6\r\n"
+    ],
+    [
+      0.000007,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:46:02.784 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.\r\n"
+    ],
+    [
+      0.000029,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:46:02.784 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never \u003e /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.\r\n"
+    ],
+    [
+      0.000011,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:46:02.784 * DB loaded from disk: 0.000 seconds\r\n"
+    ],
+    [
+      0.000023,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:46:02.784 * The server is now ready to accept connections on port 6379\r\n"
+    ],
+    [
+      0.000029,
+      "\u001b[36mredis_1  |\u001b[0m 1:signal-handler (1460958392) Received SIGTERM scheduling shutdown...\r\n"
+    ],
+    [
+      0.000005,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:46:32.359 # User requested shutdown...\r\n"
+    ],
+    [
+      0.000017,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:46:32.359 * Saving the final RDB snapshot before exiting.\r\n"
+    ],
+    [
+      0.000022,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:46:32.361 * DB saved on disk\r\n"
+    ],
+    [
+      0.000018,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:46:32.361 # Redis is now ready to exit, bye bye...\r\n"
+    ],
+    [
+      0.000024,
+      "\u001b[36mredis_1  |\u001b[0m 1:C 18 Apr 05:53:16.383 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf\r\n"
+    ],
+    [
+      0.000020,
+      "\u001b[36mredis_1  |\u001b[0m                 _._                                                  \r\n"
+    ],
+    [
+      0.000016,
+      "\u001b[36mredis_1  |\u001b[0m            _.-``__ ''-._                                             \r\n"
+    ],
+    [
+      0.000023,
+      "\u001b[36mredis_1  |\u001b[0m       _.-``    `.  `_.  ''-._           Redis 3.0.6 (00000000/0) 64 bit\r\n"
+    ],
+    [
+      0.000015,
+      "\u001b[36mredis_1  |\u001b[0m   .-`` .-```.  ```\\/    _.,_ ''-._                                   \r\n"
+    ],
+    [
+      0.000017,
+      "\u001b[36mredis_1  |\u001b[0m  (    '      ,       .-`  | `,    )     Running in standalone mode\r\n"
+    ],
+    [
+      0.000031,
+      "\u001b[36mredis_1  |\u001b[0m  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379\r\n"
+    ],
+    [
+      0.000004,
+      "\u001b[36mredis_1  |\u001b[0m  |    `-._   `._    /     _.-'    |     PID: 1\r\n"
+    ],
+    [
+      0.000029,
+      "\u001b[36mredis_1  |\u001b[0m   `-._    `-._  `-./  _.-'    _.-'                                   \r\n"
+    ],
+    [
+      0.000014,
+      "\u001b[36mredis_1  |\u001b[0m  |`-._`-._    `-.__.-'    _.-'_.-'|                                  \r\n"
+    ],
+    [
+      0.000018,
+      "\u001b[36mredis_1  |\u001b[0m  |    `-._`-._        _.-'_.-'    |           http://redis.io        \r\n"
+    ],
+    [
+      0.000019,
+      "\u001b[36mredis_1  |\u001b[0m   `-._    `-._`-.__.-'_.-'    _.-'                                   \r\n"
+    ],
+    [
+      0.000021,
+      "\u001b[36mredis_1  |\u001b[0m  |`-._`-._    `-.__.-'    _.-'_.-'|                                  \r\n"
+    ],
+    [
+      0.000017,
+      "\u001b[36mredis_1  |\u001b[0m  |    `-._`-._        _.-'_.-'    |                                  \r\n"
+    ],
+    [
+      0.000023,
+      "\u001b[36mredis_1  |\u001b[0m   `-._    `-._`-.__.-'_.-'    _.-'                                   \r\n"
+    ],
+    [
+      0.000016,
+      "\u001b[36mredis_1  |\u001b[0m       `-._    `-.__.-'    _.-'                                       \r\n"
+    ],
+    [
+      0.000018,
+      "\u001b[36mredis_1  |\u001b[0m           `-._        _.-'                                           \r\n"
+    ],
+    [
+      0.000024,
+      "\u001b[36mredis_1  |\u001b[0m               `-.__.-'                                               \r\n"
+    ],
+    [
+      0.000013,
+      "\u001b[36mredis_1  |\u001b[0m \r\n"
+    ],
+    [
+      0.000022,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:53:16.384 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.\r\n"
+    ],
+    [
+      0.000018,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:53:16.384 # Server started, Redis version 3.0.6\r\n"
+    ],
+    [
+      0.000038,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:53:16.384 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.\r\n"
+    ],
+    [
+      0.000010,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:53:16.384 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never \u003e /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.\r\n"
+    ],
+    [
+      0.000023,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:53:16.384 * DB loaded from disk: 0.000 seconds\r\n"
+    ],
+    [
+      0.000014,
+      "\u001b[36mredis_1  |\u001b[0m 1:M 18 Apr 05:53:16.384 * The server is now ready to accept connections on port 6379\r\n"
+    ],
+    [
+      0.065326,
+      "\u001b[33mdev_1    |\u001b[0m \r\n"
+    ],
+    [
+      0.000021,
+      "\u001b[33mdev_1    |\u001b[0m Web App Starting...\r\n"
+    ],
+    [
+      0.000028,
+      "\u001b[33mdev_1    |\u001b[0m Connecting to redis\r\n"
+    ],
+    [
+      0.000025,
+      "\u001b[33mdev_1    |\u001b[0m Connected to redis\r\n"
+    ],
+    [
+      0.000066,
+      "\u001b[33mdev_1    |\u001b[0m Listening on port 5000...\r\n"
+    ],
+    [
+      0.018226,
+      "\u001b[33mdev_1    |\u001b[0m  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)\r\n"
+    ],
+    [
+      0.000050,
+      "\u001b[33mdev_1    |\u001b[0m  * Restarting with stat\r\n"
+    ],
+    [
+      0.204867,
+      "\u001b[33mdev_1    |\u001b[0m \r\n"
+    ],
+    [
+      0.000023,
+      "\u001b[33mdev_1    |\u001b[0m Web App Starting...\r\n"
+    ],
+    [
+      0.000027,
+      "\u001b[33mdev_1    |\u001b[0m Connecting to redis\r\n"
+    ],
+    [
+      0.000024,
+      "\u001b[33mdev_1    |\u001b[0m Connected to redis\r\n"
+    ],
+    [
+      0.000021,
+      "\u001b[33mdev_1    |\u001b[0m Listening on port 5000...\r\n"
+    ],
+    [
+      0.000029,
+      "\u001b[33mdev_1    |\u001b[0m  * Debugger is active!\r\n"
+    ],
+    [
+      0.007388,
+      "\u001b[33mdev_1    |\u001b[0m  * Debugger pin code: 402-704-061\r\n"
+    ],
+    [
+      3.631476,
+      "\r\n"
+    ],
+    [
+      4.127729,
+      "^C"
+    ],
+    [
+      0.000234,
+      "Gracefully stopping... (press Ctrl+C again to force)\r\n"
+    ],
+    [
+      0.009848,
+      "Stopping dockercomposetraining_dev_1 ... \r\r\nStopping dockercomposetraining_redis_1 ... \r\r\n"
+    ],
+    [
+      0.426679,
+      "\u001b[2A"
+    ],
+    [
+      0.000133,
+      "\u001b[2K\r"
+    ],
+    [
+      0.000006,
+      "Stopping dockercomposetraining_dev_1 ... done\r"
+    ],
+    [
+      0.000003,
+      "\u001b[2B"
+    ],
+    [
+      0.432375,
+      "\u001b[1A"
+    ],
+    [
+      0.000045,
+      "\u001b[2K\rStopping dockercomposetraining_redis_1 ... done\r"
+    ],
+    [
+      0.000006,
+      "\u001b[1B"
+    ],
+    [
+      0.021542,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                          \r \r"
+    ],
+    [
+      0.000117,
+      "\u001b]2;clement.labbe@VIC018192M: ~/code/docker-compose-training\u0007\u001b]1;..pose-training\u0007"
+    ],
+    [
+      0.025348,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[01;32m~/code/docker-compose-training\u001b[00m \u001b[01;35m master\u001b[31m⚡\u001b[00m \u001b[01;32m15:54:05\u001b[00m\r\n\u001b[01;32m$\u001b[00m "
+    ],
+    [
+      0.000009,
+      "\u001b[K\u001b[104C\u001b[01;31m\u001b[00m\u001b[104D"
+    ],
+    [
+      0.000096,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      3.428052,
       "\r\r\n"
     ]
   ]
