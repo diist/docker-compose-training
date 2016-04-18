@@ -3,7 +3,7 @@ version: '2'
 services:
   dev:
     image: python:2.7-slim
-    command: python app.py
+    command: python test.py
     volumes:
       - ./voting-app:/cwd
       - python2.7-cache:/pip-cache

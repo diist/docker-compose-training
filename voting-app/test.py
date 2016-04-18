@@ -24,7 +24,7 @@ class AppTestCase(unittest.TestCase):
         votes = self._vote_count(option)
         self.app.post('/', data={'vote': option})
         votes_post = self._vote_count(option)
-        assert votes_post == votes + 1
+        assert votes_post == votes + 2
     
     def _vote_count(self, option):
         rv = self.app.get('/')
