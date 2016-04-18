@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "width": 103,
-  "height": 38,
-  "duration": 88.384682,
+  "width": 108,
+  "height": 37,
+  "duration": 68.748506,
   "command": "/bin/zsh",
   "title": "",
   "env": {
@@ -11,851 +11,659 @@
   },
   "stdout": [
     [
-      0.181078,
-      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                      \r \r"
+      0.174490,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                           \r \r"
     ],
     [
-      0.000115,
+      0.000026,
       "\u001b]2;clement.labbe@VIC018192M: ~/code/docker-compose-training\u0007"
     ],
     [
-      0.000054,
+      0.000004,
       "\u001b]1;..pose-training\u0007"
     ],
     [
-      0.026615,
-      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[01;32m~/code/docker-compose-training\u001b[00m \u001b[01;35m master\u001b[31m⚡\u001b[00m \u001b[01;32m12:59:45\u001b[00m\r\n\u001b[01;32m$\u001b[00m "
+      0.026683,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[01;32m~/code/docker-compose-training\u001b[00m \u001b[01;35m master\u001b[31m⚡\u001b[00m \u001b[01;32m15:06:55\u001b[00m\r\n\u001b[01;32m$\u001b[00m "
     ],
     [
-      0.000022,
-      "\u001b[K\u001b[100C\u001b[01;31m\u001b[00m\u001b[100D"
-    ],
-    [
-      0.000258,
-      "\u001b[?1h\u001b="
-    ],
-    [
-      0.936958,
-      "d"
-    ],
-    [
-      0.102787,
-      "\u0008do"
-    ],
-    [
-      0.071924,
-      "c"
-    ],
-    [
-      0.087990,
-      "k"
-    ],
-    [
-      0.071928,
-      "e"
-    ],
-    [
-      0.031644,
-      "r"
-    ],
-    [
-      0.064010,
-      "-"
-    ],
-    [
-      0.208050,
-      "c"
-    ],
-    [
-      0.209685,
-      "ompose\u001b[1m \u001b[0m"
-    ],
-    [
-      1.302425,
-      "\u0008\u001b[0m -"
-    ],
-    [
-      0.088327,
-      "f"
-    ],
-    [
-      0.056339,
-      " "
-    ],
-    [
-      0.391171,
-      "d"
-    ],
-    [
-      0.096528,
-      "o"
-    ],
-    [
-      0.120214,
-      "cker-compose"
-    ],
-    [
-      1.175456,
-      "-"
-    ],
-    [
-      0.504302,
-      "5"
-    ],
-    [
-      0.127729,
-      "-"
-    ],
-    [
-      0.126925,
-      "helper.yml\u001b[1m \u001b[0m"
-    ],
-    [
-      1.904984,
-      "\u0008\u001b[0m r"
-    ],
-    [
-      0.047936,
-      "u"
-    ],
-    [
-      0.040176,
-      "n"
-    ],
-    [
-      0.072246,
-      " "
-    ],
-    [
-      0.591789,
-      "-"
-    ],
-    [
-      0.111986,
-      "-"
-    ],
-    [
-      0.104303,
-      "r"
-    ],
-    [
-      0.087990,
-      "e"
-    ],
-    [
-      0.047731,
-      "m"
-    ],
-    [
-      0.704248,
-      "\u0008 \u0008"
-    ],
-    [
-      0.432146,
-      "\u0008 \u0008"
-    ],
-    [
-      0.231787,
-      "m"
-    ],
-    [
-      0.088042,
-      " "
-    ],
-    [
-      0.223814,
-      "d"
-    ],
-    [
-      0.056327,
-      "e"
-    ],
-    [
-      0.191726,
-      "v"
-    ],
-    [
-      0.423925,
-      " "
-    ],
-    [
-      0.792066,
-      "p"
-    ],
-    [
-      0.152290,
-      "i"
-    ],
-    [
-      0.175647,
-      "p"
-    ],
-    [
-      0.104296,
-      " "
-    ],
-    [
-      0.240041,
-      "i"
-    ],
-    [
-      0.176000,
-      "n"
-    ],
-    [
-      0.087676,
-      "s"
-    ],
-    [
-      0.112074,
-      "t"
-    ],
-    [
-      0.072347,
-      "a"
-    ],
-    [
-      0.103960,
-      "l"
-    ],
-    [
-      0.103726,
-      "l"
-    ],
-    [
-      0.087983,
-      " "
-    ],
-    [
-      0.159884,
-      "-"
-    ],
-    [
-      0.120074,
-      "r"
-    ],
-    [
-      0.112201,
-      " "
-    ],
-    [
-      0.159814,
-      "r"
-    ],
-    [
-      0.064356,
-      "e"
-    ],
-    [
-      0.175960,
-      "q"
-    ],
-    [
-      0.127753,
-      "u"
-    ],
-    [
-      0.352016,
-      "i"
-    ],
-    [
-      0.056209,
-      "r"
-    ],
-    [
-      0.224464,
-      "\u0007"
-    ],
-    [
-      0.559875,
-      "e"
-    ],
-    [
-      0.198933,
-      "\u0007"
-    ],
-    [
-      0.072684,
-      "m"
-    ],
-    [
-      1.287875,
-      "e"
-    ],
-    [
-      0.088002,
-      "n"
-    ],
-    [
-      0.104307,
-      "t"
-    ],
-    [
-      0.135667,
-      "."
-    ],
-    [
-      0.072024,
-      "s"
-    ],
-    [
-      0.695800,
-      "\u0008 \u0008"
-    ],
-    [
-      0.128421,
-      "\u0008 \u0008"
-    ],
-    [
-      0.151887,
-      "s"
-    ],
-    [
-      0.424358,
-      "."
-    ],
-    [
-      0.079473,
-      "t"
-    ],
-    [
-      0.384440,
-      "t"
-    ],
-    [
-      0.487744,
-      "\u0008 \u0008"
-    ],
-    [
-      0.064038,
-      "x"
-    ],
-    [
-      0.087864,
-      "t"
-    ],
-    [
-      0.360291,
-      "\u001b[?1l\u001b\u003e"
-    ],
-    [
-      0.000092,
-      "\r\r\n"
-    ],
-    [
-      0.001652,
-      "\u001b]2;docker-compose -f docker-compose-5-helper.yml run --rm dev pip install -r \u0007"
-    ],
-    [
-      0.000021,
-      "\u001b]1;docker-compose\u0007"
-    ],
-    [
-      0.427040,
-      "Building dev\r\n"
-    ],
-    [
-      0.025794,
-      "Step 1 : FROM alpine:3.3\r\n"
-    ],
-    [
-      0.000153,
-      " ---\u003e 70c557e50ed6\r\n"
-    ],
-    [
-      0.000166,
-      "Step 2 : RUN apk add --update       python       py-pip  \u0026\u0026 rm /var/cache/apk/*\r\n"
-    ],
-    [
-      0.075191,
-      " ---\u003e Running in 1b789c96366a\r\n"
-    ],
-    [
-      0.229905,
-      "fetch http://dl-cdn.alpinelinux.org/alpine/v3.3/main/x86_64/APKINDEX.tar.gz\r\n"
-    ],
-    [
-      3.236354,
-      "fetch http://dl-cdn.alpinelinux.org/alpine/v3.3/community/x86_64/APKINDEX.tar.gz\r\n"
-    ],
-    [
-      0.372563,
-      "(1/12) Installing libbz2 (1.0.6-r4)\r\n"
-    ],
-    [
-      0.094536,
-      "(2/12) Installing expat (2.1.0-r2)\r\n"
-    ],
-    [
-      0.105044,
-      "(3/12) Installing libffi (3.2.1-r2)\r\n"
-    ],
-    [
-      0.072972,
-      "(4/12) Installing gdbm (1.11-r1)\r\n"
-    ],
-    [
-      0.104276,
-      "(5/12) Installing ncurses-terminfo-base (6.0-r6)\r\n"
-    ],
-    [
-      0.208830,
-      "(6/12) Installing ncurses-terminfo (6.0-r6)\r\n"
-    ],
-    [
-      0.939060,
-      "(7/12) Installing ncurses-libs (6.0-r6)\r\n"
-    ],
-    [
-      0.168270,
-      "(8/12) Installing readline (6.3.008-r4)\r\n"
-    ],
-    [
-      0.150676,
-      "(9/12) Installing sqlite-libs (3.9.2-r0)\r\n"
-    ],
-    [
-      0.257317,
-      "(10/12) Installing python (2.7.11-r3)\r\n"
-    ],
-    [
-      13.392383,
-      "(11/12) Installing py-setuptools (18.8-r0)\r\n"
-    ],
-    [
-      0.631659,
-      "(12/12) Installing py-pip (7.1.2-r0)\r\n"
-    ],
-    [
-      2.235695,
-      "Executing busybox-1.24.1-r7.trigger\r\n"
-    ],
-    [
-      0.008938,
-      "OK: 59 MiB in 23 packages\r\n"
-    ],
-    [
-      2.400015,
-      " ---\u003e 555fc8166cdd\r\n"
-    ],
-    [
-      0.099054,
-      "Removing intermediate container 1b789c96366a\r\n"
-    ],
-    [
-      0.000220,
-      "Step 3 : CMD sh\r\n"
-    ],
-    [
-      0.081678,
-      " ---\u003e Running in 2ee93644e43d\r\n"
-    ],
-    [
-      0.069124,
-      " ---\u003e f95fcb50cf77\r\n"
-    ],
-    [
-      0.001593,
-      "Removing intermediate container 2ee93644e43d\r\n"
-    ],
-    [
-      0.001241,
-      "Successfully built f95fcb50cf77\r\n"
-    ],
-    [
-      0.000965,
-      "\u001b[33mWARNING\u001b[0m: Image for service dev was built because it did not already exist. To rebuild this image you must use `docker-compose build` or `docker-compose up --build`.\r\n"
-    ],
-    [
-      0.553924,
-      "C"
-    ],
-    [
-      0.000255,
-      "ollecting flask (from -r requirements.txt (line 1))"
-    ],
-    [
-      0.003045,
-      "\r"
-    ],
-    [
-      0.000232,
-      "\n"
-    ],
-    [
-      0.048467,
-      "C"
-    ],
-    [
-      0.000335,
-      "ollecting redis (from -r requirements.txt (line 2))\r\n"
-    ],
-    [
-      0.033006,
-      " "
-    ],
-    [
-      0.000270,
-      " Using cached redis-2.10.5-py2.py3-none-any.whl\r\n"
-    ],
-    [
-      0.009949,
-      "C"
-    ],
-    [
-      0.000421,
-      "ollecting itsdangerous\u003e=0.21 (from flask-\u003e-r requirements.txt (line 1))\r\n"
-    ],
-    [
-      0.020853,
-      "C"
-    ],
-    [
-      0.000271,
-      "ollecting Werkzeug\u003e=0.7 (from flask-\u003e-r requirements.txt (line 1))\r\n"
-    ],
-    [
-      0.052174,
-      " "
-    ],
-    [
-      0.000263,
-      " Using cached Werkzeug-0.11.8-py2.py3-none-any.whl\r\n"
-    ],
-    [
-      0.015252,
-      "C"
-    ],
-    [
-      0.000081,
-      "ollecting Jinja2\u003e=2.4 (from flask-\u003e-r requirements.txt (line 1))\r\n"
-    ],
-    [
-      0.031994,
-      " "
-    ],
-    [
-      0.000118,
-      " Using cached Jinja2-2.8-py2.py3-none-any.whl\r\n"
-    ],
-    [
-      0.016309,
-      "C"
-    ],
-    [
-      0.000087,
-      "ollecting MarkupSafe (from Jinja2\u003e=2.4-\u003eflask-\u003e-r requirements.txt (line 1))\r\n"
-    ],
-    [
-      0.016040,
-      "I"
-    ],
-    [
-      0.000106,
-      "nstalling collected packages: itsdangerous, Werkzeug, MarkupSafe, Jinja2, flask, redis\r\n"
-    ],
-    [
-      0.389008,
-      "S"
-    ],
-    [
-      0.000226,
-      "uccessfully installed Jinja2-2.8 MarkupSafe-0.23 Werkzeug-0.11.8 flask-0.10.1 itsdangerous-0.24 redis-2.10.5\r\n"
-    ],
-    [
-      0.012592,
-      "\u001b"
-    ],
-    [
-      0.000555,
-      "[33mTarget directory /pip-cache/itsdangerous.pyc already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/Jinja2-2.8.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m\r\n"
-    ],
-    [
-      0.000453,
-      "\u001b"
-    ],
-    [
-      0.000426,
-      "[33mTarget directory /pip-cache/redis already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/MarkupSafe-0.23.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/redis-2.10.5.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m\r\n"
-    ],
-    [
-      0.000391,
-      "\u001b"
-    ],
-    [
-      0.000389,
-      "[33mTarget directory /pip-cache/itsdangerous-0.24.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/Flask-0.10.1.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/werkzeug already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/flask already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/markupsafe already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/jinja2 already exists. Specify --upgrade to force replacement.\u001b[0m\r\n"
-    ],
-    [
-      0.000313,
-      "\u001b"
-    ],
-    [
-      0.000210,
-      "[33mTarget directory /pip-cache/Werkzeug-0.11.8.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/itsdangerous.py already exists. Specify --upgrade to force replacement.\u001b[0m\r\n"
-    ],
-    [
-      0.023665,
-      "\u001b"
-    ],
-    [
-      0.000285,
-      "[33mYou are using pip version 7.1.2, however version 8.1.1 is available.\r\nYou should consider upgrading via the 'pip install --upgrade pip' command.\u001b[0m\r\n"
-    ],
-    [
-      0.473574,
-      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                      \r \r"
-    ],
-    [
-      0.000326,
-      "\u001b]2;clement.labbe@VIC018192M: ~/code/docker-compose-training\u0007\u001b]1;..pose-training\u0007"
-    ],
-    [
-      0.023413,
-      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[01;32m~/code/docker-compose-training\u001b[00m \u001b[01;35m master\u001b[31m⚡\u001b[00m \u001b[01;32m13:00:33\u001b[00m\r\n\u001b[01;32m$\u001b[00m "
-    ],
-    [
-      0.000006,
-      "\u001b[K\u001b[100C\u001b[01;31m\u001b[00m\u001b[100D"
+      0.000007,
+      "\u001b[K\u001b[105C\u001b[01;31m\u001b[00m\u001b[105D"
     ],
     [
       0.000125,
       "\u001b[?1h\u001b="
     ],
     [
-      6.391175,
-      "docker-compose -f docker-compose-5-helper.yml run --rm dev pip install -r requirements.txt"
+      1.246976,
+      "d"
     ],
     [
-      0.823619,
-      "\u0008 \u0008"
+      0.111187,
+      "\u0008do"
     ],
     [
-      0.417068,
-      "\u0008 \u0008"
+      0.040444,
+      "c"
     ],
     [
-      0.033829,
-      "\u0008 \u0008"
+      0.103878,
+      "k"
     ],
     [
-      0.034321,
-      "\u0008 \u0008"
-    ],
-    [
-      0.034137,
-      "\u0008 \u0008"
-    ],
-    [
-      0.036081,
-      "\u0008 \u0008"
-    ],
-    [
-      0.032713,
-      "\u0008 \u0008"
-    ],
-    [
-      0.034757,
-      "\u0008 \u0008"
-    ],
-    [
-      0.035382,
-      "\u0008 \u0008"
-    ],
-    [
-      0.032763,
-      "\u0008 \u0008"
-    ],
-    [
-      0.034803,
-      "\u0008 \u0008"
-    ],
-    [
-      0.034134,
-      "\u0008 \u0008"
-    ],
-    [
-      0.034660,
-      "\u0008 \u0008"
-    ],
-    [
-      0.035371,
-      "\u0008 \u0008"
-    ],
-    [
-      0.033598,
-      "\u0008 \u0008"
-    ],
-    [
-      0.033885,
-      "\u0008 \u0008"
-    ],
-    [
-      0.034248,
-      "\u0008"
-    ],
-    [
-      0.034097,
-      "\u0008 \u0008"
-    ],
-    [
-      0.034290,
-      "\u0008 \u0008"
-    ],
-    [
-      0.034627,
-      "\u0008"
-    ],
-    [
-      0.509405,
-      "\u0008 \u0008"
-    ],
-    [
-      0.151993,
-      "\u0008 \u0008"
-    ],
-    [
-      0.127959,
-      "\u0008 \u0008"
-    ],
-    [
-      0.135777,
-      "\u0008 \u0008"
-    ],
-    [
-      0.127993,
-      "\u0008 \u0008"
-    ],
-    [
-      0.128474,
-      "\u0008 \u0008"
-    ],
-    [
-      0.127373,
-      "\u0008 \u0008"
-    ],
-    [
-      0.136438,
-      "\u0008"
-    ],
-    [
-      0.127670,
-      "\u0008 \u0008"
-    ],
-    [
-      0.128426,
-      "\u0008 \u0008"
-    ],
-    [
-      0.576093,
-      "y"
-    ],
-    [
-      0.112169,
-      "t"
-    ],
-    [
-      0.071782,
-      "h"
-    ],
-    [
-      0.087919,
-      "o"
-    ],
-    [
-      0.143792,
-      "n"
-    ],
-    [
-      0.071916,
-      " "
-    ],
-    [
-      0.224404,
-      "t"
-    ],
-    [
-      0.119994,
+      0.032074,
       "e"
     ],
     [
-      0.199999,
-      "s"
+      0.047831,
+      "r"
     ],
     [
-      0.063582,
-      "t"
+      0.111849,
+      "-"
     ],
     [
-      0.088114,
-      "."
+      0.167894,
+      "c"
     ],
     [
-      0.231871,
+      0.112180,
+      "o"
+    ],
+    [
+      0.136033,
+      "m"
+    ],
+    [
+      0.183995,
       "p"
     ],
     [
-      0.056004,
-      "y"
+      0.064237,
+      "o"
     ],
     [
-      0.536514,
+      0.000420,
+      "s"
+    ],
+    [
+      0.079427,
+      "e"
+    ],
+    [
+      0.127619,
+      " "
+    ],
+    [
+      0.224368,
+      "-"
+    ],
+    [
+      0.048045,
+      "f"
+    ],
+    [
+      0.079589,
+      " "
+    ],
+    [
+      0.840128,
+      "d"
+    ],
+    [
+      0.096328,
+      "o"
+    ],
+    [
+      0.055987,
+      "c"
+    ],
+    [
+      0.088003,
+      "k"
+    ],
+    [
+      0.076718,
+      "er-compose"
+    ],
+    [
+      0.947362,
+      "-"
+    ],
+    [
+      0.223680,
+      "5"
+    ],
+    [
+      0.109665,
+      "-helper.yml\u001b[1m \u001b[0m"
+    ],
+    [
+      1.978701,
+      "\u0008\u001b[0m r"
+    ],
+    [
+      0.151633,
+      "u"
+    ],
+    [
+      0.064313,
+      "n"
+    ],
+    [
+      0.119946,
+      " "
+    ],
+    [
+      0.680138,
+      "-"
+    ],
+    [
+      0.111954,
+      "-"
+    ],
+    [
+      0.135993,
+      "r"
+    ],
+    [
+      0.071948,
+      "m"
+    ],
+    [
+      0.095715,
+      " "
+    ],
+    [
+      0.384069,
+      "d"
+    ],
+    [
+      0.080254,
+      "e"
+    ],
+    [
+      0.160027,
+      "v"
+    ],
+    [
+      0.615676,
+      " "
+    ],
+    [
+      0.864382,
+      "p"
+    ],
+    [
+      0.223611,
+      "i"
+    ],
+    [
+      0.144123,
+      "p"
+    ],
+    [
+      0.096046,
+      " "
+    ],
+    [
+      0.119939,
+      "i"
+    ],
+    [
+      0.168330,
+      "n"
+    ],
+    [
+      0.039709,
+      "s"
+    ],
+    [
+      0.111977,
+      "t"
+    ],
+    [
+      0.064016,
+      "a"
+    ],
+    [
+      0.136062,
+      "l"
+    ],
+    [
+      0.096299,
+      "l"
+    ],
+    [
+      0.071748,
+      " "
+    ],
+    [
+      0.183861,
+      "-"
+    ],
+    [
+      0.143920,
+      "r"
+    ],
+    [
+      0.096032,
+      " "
+    ],
+    [
+      0.168213,
+      "r"
+    ],
+    [
+      0.096121,
+      "e"
+    ],
+    [
+      0.238695,
+      "\u0008\u0008README.md\u001b[1m \u001b[0m"
+    ],
+    [
+      0.096930,
+      "\u0008\u001b[0m u"
+    ],
+    [
+      0.552116,
+      "\u0008 \u0008"
+    ],
+    [
+      0.417387,
+      "\u0008"
+    ],
+    [
+      0.033952,
+      "\u0008 \u0008"
+    ],
+    [
+      0.034538,
+      "\u0008 \u0008"
+    ],
+    [
+      0.033349,
+      "\u0008 \u0008"
+    ],
+    [
+      0.036223,
+      "\u0008 \u0008"
+    ],
+    [
+      0.032718,
+      "\u0008 \u0008"
+    ],
+    [
+      0.034703,
+      "\u0008 \u0008"
+    ],
+    [
+      0.034006,
+      "\u0008 \u0008"
+    ],
+    [
+      0.033580,
+      "\u0008 \u0008"
+    ],
+    [
+      0.469752,
+      "\u0008 \u0008"
+    ],
+    [
+      0.256280,
+      "r"
+    ],
+    [
+      0.063521,
+      "e"
+    ],
+    [
+      0.191991,
+      "q"
+    ],
+    [
+      0.096101,
+      "u"
+    ],
+    [
+      0.152307,
+      "i"
+    ],
+    [
+      0.095764,
+      "r"
+    ],
+    [
+      0.096209,
+      "e"
+    ],
+    [
+      0.112018,
+      "m"
+    ],
+    [
+      0.055854,
+      "e"
+    ],
+    [
+      0.096275,
+      "n"
+    ],
+    [
+      0.047319,
+      "t"
+    ],
+    [
+      0.144192,
+      "s"
+    ],
+    [
+      0.096401,
+      "."
+    ],
+    [
+      0.423606,
+      "t"
+    ],
+    [
+      0.168329,
+      "x"
+    ],
+    [
+      0.103558,
+      "t"
+    ],
+    [
+      0.208153,
       "\u001b[?1l\u001b\u003e"
     ],
     [
-      0.000056,
+      0.000064,
       "\r\r\n"
     ],
     [
-      0.001321,
-      "\u001b]2;docker-compose -f docker-compose-5-helper.yml run --rm dev python test.py\u0007"
+      0.001350,
+      "\u001b]2;docker-compose -f docker-compose-5-helper.yml run --rm dev pip install -r \u0007"
     ],
     [
-      0.000008,
+      0.000022,
       "\u001b]1;docker-compose\u0007"
     ],
     [
-      1.468401,
+      0.419372,
+      "Creating dockercomposetraining_redis_1\r\n"
+    ],
+    [
+      0.379887,
+      "Building dev\r\n"
+    ],
+    [
+      0.027186,
+      "Step 1 : FROM alpine:3.3\r\n"
+    ],
+    [
+      0.000228,
+      " ---\u003e 70c557e50ed6\r\n"
+    ],
+    [
+      0.000231,
+      "Step 2 : RUN apk add --update       python       py-pip  \u0026\u0026 rm /var/cache/apk/*\r\n"
+    ],
+    [
+      0.078736,
+      " ---\u003e Running in a5f9c1bff871\r\n"
+    ],
+    [
+      0.257194,
+      "fetch http://dl-cdn.alpinelinux.org/alpine/v3.3/main/x86_64/APKINDEX.tar.gz\r\n"
+    ],
+    [
+      2.869244,
+      "fetch http://dl-cdn.alpinelinux.org/alpine/v3.3/community/x86_64/APKINDEX.tar.gz\r\n"
+    ],
+    [
+      0.370277,
+      "(1/12) Installing libbz2 (1.0.6-r4)\r\n"
+    ],
+    [
+      0.040513,
+      "(2/12) Installing expat (2.1.0-r2)\r\n"
+    ],
+    [
+      0.093474,
+      "(3/12) Installing libffi (3.2.1-r2)\r\n"
+    ],
+    [
+      0.122173,
+      "(4/12) Installing gdbm (1.11-r1)\r\n"
+    ],
+    [
+      0.094110,
+      "(5/12) Installing ncurses-terminfo-base (6.0-r6)\r\n"
+    ],
+    [
+      0.074831,
+      "(6/12) Installing ncurses-terminfo (6.0-r6)\r\n"
+    ],
+    [
+      0.791707,
+      "(7/12) Installing ncurses-libs (6.0-r6)\r\n"
+    ],
+    [
+      0.141206,
+      "(8/12) Installing readline (6.3.008-r4)\r\n"
+    ],
+    [
+      0.116642,
+      "(9/12) Installing sqlite-libs (3.9.2-r0)\r\n"
+    ],
+    [
+      0.203176,
+      "(10/12) Installing python (2.7.11-r3)\r\n"
+    ],
+    [
+      5.934389,
+      "(11/12) Installing py-setuptools (18.8-r0)\r\n"
+    ],
+    [
+      0.499683,
+      "(12/12) Installing py-pip (7.1.2-r0)\r\n"
+    ],
+    [
+      1.474297,
+      "Executing busybox-1.24.1-r7.trigger\r\n"
+    ],
+    [
+      0.007498,
+      "OK: 59 MiB in 23 packages\r\n"
+    ],
+    [
+      2.508129,
+      " ---\u003e 88801891600f\r\n"
+    ],
+    [
+      0.097363,
+      "Removing intermediate container a5f9c1bff871\r\n"
+    ],
+    [
+      0.000154,
+      "Step 3 : CMD sh\r\n"
+    ],
+    [
+      0.104117,
+      " ---\u003e Running in 77e6e1efe91f\r\n"
+    ],
+    [
+      0.059678,
+      " ---\u003e bc6f9fac7bc1\r\n"
+    ],
+    [
+      0.004803,
+      "Removing intermediate container 77e6e1efe91f\r\n"
+    ],
+    [
+      0.003912,
+      "Successfully built bc6f9fac7bc1\r\n"
+    ],
+    [
+      0.001003,
+      "\u001b[33mWARNING\u001b[0m: Image for service dev was built because it did not already exist. To rebuild this image you must use `docker-compose build` or `docker-compose up --build`.\r\n"
+    ],
+    [
+      0.598526,
+      "C"
+    ],
+    [
+      0.000230,
+      "ollecting flask (from -r requirements.txt (line 1))\r\n"
+    ],
+    [
+      1.296400,
+      "C"
+    ],
+    [
+      0.000104,
+      "ollecting redis (from -r requirements.txt (line 2))\r\n"
+    ],
+    [
+      0.264082,
+      " "
+    ],
+    [
+      0.000058,
+      " Using cached redis-2.10.5-py2.py3-none-any.whl\r\n"
+    ],
+    [
+      0.006620,
+      "C"
+    ],
+    [
+      0.000072,
+      "ollecting itsdangerous\u003e=0.21 (from flask-\u003e-r requirements.txt (line 1))"
+    ],
+    [
+      0.000075,
       "\r"
     ],
     [
-      0.000096,
+      0.000046,
       "\n"
     ],
     [
-      0.000297,
-      "W"
-    ],
-    [
-      0.000094,
-      "eb App Starting...\r\n"
-    ],
-    [
-      0.000426,
+      0.254205,
       "C"
     ],
     [
-      0.000099,
-      "onnecting to redis\r\n"
+      0.000063,
+      "ollecting Werkzeug\u003e=0.7 (from flask-\u003e-r requirements.txt (line 1))\r\n"
     ],
     [
-      0.001642,
+      0.278696,
+      " "
+    ],
+    [
+      0.000064,
+      " Using cached Werkzeug-0.11.8-py2.py3-none-any.whl"
+    ],
+    [
+      0.000056,
+      "\r"
+    ],
+    [
+      0.000054,
+      "\n"
+    ],
+    [
+      0.016976,
       "C"
     ],
     [
-      0.000080,
-      "onnected to redis\r\n"
+      0.000091,
+      "ollecting Jinja2\u003e=2.4 (from flask-\u003e-r requirements.txt (line 1))"
     ],
     [
-      0.001723,
-      "L"
+      0.000329,
+      "\r"
     ],
     [
-      0.000081,
-      "istening on port 5000..."
+      0.000063,
+      "\n"
     ],
     [
-      0.000300,
+      0.263219,
+      " "
+    ],
+    [
+      0.000063,
+      " Using cached Jinja2-2.8-py2.py3-none-any.whl\r\n"
+    ],
+    [
+      0.012477,
+      "C"
+    ],
+    [
+      0.000130,
+      "ollecting MarkupSafe (from Jinja2\u003e=2.4-\u003eflask-\u003e-r requirements.txt (line 1))"
+    ],
+    [
+      0.000357,
+      "\r"
+    ],
+    [
+      0.000173,
+      "\n"
+    ],
+    [
+      0.254562,
+      "I"
+    ],
+    [
+      0.000073,
+      "nstalling collected packages: itsdangerous, Werkzeug, MarkupSafe, Jinja2, flask, redis"
+    ],
+    [
+      0.000057,
+      "\r"
+    ],
+    [
+      0.000053,
+      "\n"
+    ],
+    [
+      0.395430,
+      "S"
+    ],
+    [
+      0.000083,
+      "uccessfully installed Jinja2-2.8 MarkupSafe-0.23 Werkzeug-0.11.8 flask-0.10.1 itsdangerous-0.24 redis-2.10.5"
+    ],
+    [
+      0.000075,
+      "\r"
+    ],
+    [
+      0.000063,
+      "\n"
+    ],
+    [
+      0.016665,
+      "\u001b"
+    ],
+    [
+      0.000117,
+      "[33mTarget directory /pip-cache/itsdangerous.pyc already exists. Specify --upgrade to force replacement.\u001b[0m\r\n"
+    ],
+    [
+      0.000462,
+      "\u001b"
+    ],
+    [
+      0.000126,
+      "[33mTarget directory /pip-cache/Jinja2-2.8.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m"
+    ],
+    [
+      0.000070,
       "\r"
     ],
     [
@@ -863,39 +671,23 @@
       "\n"
     ],
     [
-      0.011895,
-      "\r"
+      0.000576,
+      "\u001b"
     ],
     [
-      0.000060,
-      "\n"
+      0.000075,
+      "[33mTarget directory /pip-cache/redis already exists. Specify --upgrade to force replacement.\u001b[0m\r\n"
     ],
     [
-      0.000053,
-      "*"
+      0.000590,
+      "\u001b"
     ],
     [
-      0.000068,
-      "** Testing that '/' returns HTTP/200 ***\r\n"
+      0.000074,
+      "[33mTarget directory /pip-cache/MarkupSafe-0.23.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m"
     ],
     [
-      0.016003,
-      "."
-    ],
-    [
-      0.000320,
-      "\r"
-    ],
-    [
-      0.000058,
-      "\n"
-    ],
-    [
-      0.000213,
-      "*** Testing that voting for option a works ***"
-    ],
-    [
-      0.001532,
+      0.000331,
       "\r"
     ],
     [
@@ -903,51 +695,231 @@
       "\n"
     ],
     [
-      0.006904,
-      "I"
+      0.000592,
+      "\u001b"
     ],
     [
-      0.000510,
-      "nserting a vote for option a in Redis!\r\n"
+      0.000042,
+      "[33mTarget directory /pip-cache/redis-2.10.5.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m"
     ],
     [
-      0.006237,
+      0.000314,
+      "\r"
+    ],
+    [
+      0.000065,
+      "\n"
+    ],
+    [
+      0.000624,
+      "\u001b"
+    ],
+    [
+      0.000084,
+      "[33mTarget directory /pip-cache/itsdangerous-0.24.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m"
+    ],
+    [
+      0.003671,
+      "\r"
+    ],
+    [
+      0.000256,
+      "\n\u001b[33mTarget directory /pip-cache/Flask-0.10.1.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/werkzeug already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/flask already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/markupsafe already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/jinja2 already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/Werkzeug-0.11.8.dist-info already exists. Specify --upgrade to force replacement.\u001b[0m\r\n\u001b[33mTarget directory /pip-cache/itsdangerous.py already exists. Specify --upgrade to force replacement.\u001b[0m\r\n"
+    ],
+    [
+      0.020733,
+      "\u001b"
+    ],
+    [
+      0.000227,
+      "[33mYou are using pip version 7.1.2, however version 8.1.1 is available.\r\nYou should consider upgrading via the 'pip install --upgrade pip' command.\u001b[0m\r\n"
+    ],
+    [
+      0.441433,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                           \r \r"
+    ],
+    [
+      0.000011,
+      "\u001b]2;clement.labbe@VIC018192M: ~/code/docker-compose-training\u0007"
+    ],
+    [
+      0.000030,
+      "\u001b]1;..pose-training\u0007"
+    ],
+    [
+      0.024356,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[01;32m~/code/docker-compose-training\u001b[00m \u001b[01;35m master\u001b[31m⚡\u001b[00m \u001b[01;32m15:07:33\u001b[00m\r\n\u001b[01;32m$\u001b[00m "
+    ],
+    [
+      0.000006,
+      "\u001b[K\u001b[105C\u001b[01;31m\u001b[00m\u001b[105D"
+    ],
+    [
+      0.000114,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      2.653356,
+      "docker-compose -f docker-compose-5-helper.yml run --rm dev pip install -r requirements.txt"
+    ],
+    [
+      1.775252,
+      "\u0008\u0008\u0008   \u0008\u0008\u0008"
+    ],
+    [
+      0.343830,
+      "\u001b[13D             \u001b[13D"
+    ],
+    [
+      0.384453,
+      "\u0008\u0008 \u0008"
+    ],
+    [
+      0.383688,
+      "\u001b[9D         \u001b[9D"
+    ],
+    [
+      0.367996,
+      "\u0008\u0008\u0008\u0008   \u0008\u0008\u0008"
+    ],
+    [
+      0.888186,
+      "p"
+    ],
+    [
+      0.271798,
+      "y"
+    ],
+    [
+      0.096491,
+      "t"
+    ],
+    [
+      0.127868,
+      "h"
+    ],
+    [
+      0.167546,
+      "o"
+    ],
+    [
+      0.151958,
+      "n"
+    ],
+    [
+      0.064012,
+      " "
+    ],
+    [
+      0.400589,
+      "t"
+    ],
+    [
+      0.223894,
+      "e"
+    ],
+    [
+      0.183939,
+      "s"
+    ],
+    [
+      0.071912,
+      "t"
+    ],
+    [
+      0.296188,
       "."
     ],
     [
-      0.000376,
+      0.247800,
+      "p"
+    ],
+    [
+      0.072208,
+      "y"
+    ],
+    [
+      0.375654,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000014,
+      "\r\r\n"
+    ],
+    [
+      0.001120,
+      "\u001b]2;docker-compose -f docker-compose-5-helper.yml run --rm dev python test.py\u0007"
+    ],
+    [
+      0.000007,
+      "\u001b]1;docker-compose\u0007"
+    ],
+    [
+      0.981031,
       "\r"
     ],
     [
-      0.000074,
+      0.000282,
+      "\nWeb App Starting...\r\nConnecting to redis\r\n"
+    ],
+    [
+      0.001519,
+      "C"
+    ],
+    [
+      0.000168,
+      "onnected to redis"
+    ],
+    [
+      0.000231,
+      "\r"
+    ],
+    [
+      0.000158,
       "\n"
     ],
     [
-      0.000278,
+      0.002306,
+      "L"
+    ],
+    [
+      0.000165,
+      "istening on port 5000..."
+    ],
+    [
+      0.000170,
+      "\r"
+    ],
+    [
+      0.000173,
+      "\n"
+    ],
+    [
+      0.015118,
+      "\r"
+    ],
+    [
+      0.000090,
+      "\n"
+    ],
+    [
+      0.000264,
       "*"
     ],
     [
-      0.000121,
-      "** Testing that voting for option b works ***"
+      0.000075,
+      "** Testing that '/' returns HTTP/200 ***"
     ],
     [
-      0.000284,
+      0.000358,
       "\r"
     ],
     [
-      0.000105,
+      0.000203,
       "\n"
     ],
     [
-      0.005567,
-      "I"
-    ],
-    [
-      0.000082,
-      "nserting a vote for option b in Redis!\r\n"
-    ],
-    [
-      0.009940,
+      0.020714,
       "."
     ],
     [
@@ -955,411 +927,211 @@
       "\r"
     ],
     [
-      0.000069,
-      "\n"
+      0.000114,
+      "\n*** Testing that voting for option a works ***\r\n"
     ],
     [
-      0.000341,
-      "-"
+      0.008709,
+      "I"
     ],
     [
-      0.000117,
-      "---------------------------------------------------------------------"
+      0.000323,
+      "nserting a vote for option a in Redis!\r\n"
     ],
     [
-      0.000268,
+      0.010623,
+      "."
+    ],
+    [
+      0.000141,
       "\r"
     ],
     [
-      0.000185,
-      "\n"
+      0.000114,
+      "\n*** Testing that voting for option b works ***\r\n"
     ],
     [
-      0.000275,
-      "R"
+      0.159956,
+      "I"
     ],
     [
-      0.000071,
-      "an 3 tests in 0.056s"
+      0.000009,
+      "nserting a vote for option b in Redis!\r\n"
     ],
     [
-      0.000197,
-      "\r"
+      0.000433,
+      ".\r\n----------------------------------------------------------------------\r\nRan 3 tests in 0.062s\r\n\r\nOK\r\n"
     ],
     [
-      0.000135,
-      "\n"
+      0.287474,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                           \r \r"
     ],
     [
-      0.000289,
-      "\r"
+      0.000154,
+      "\u001b]2;clement.labbe@VIC018192M: ~/code/docker-compose-training\u0007\u001b]1;..pose-training\u0007"
     ],
     [
-      0.000058,
-      "\n"
-    ],
-    [
-      0.000225,
-      "O"
-    ],
-    [
-      0.000107,
-      "K"
-    ],
-    [
-      0.000245,
-      "\r"
-    ],
-    [
-      0.000078,
-      "\n"
-    ],
-    [
-      0.432272,
-      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                      \r \r"
-    ],
-    [
-      0.000138,
-      "\u001b]2;clement.labbe@VIC018192M: ~/code/docker-compose-training\u0007"
-    ],
-    [
-      0.000186,
-      "\u001b]1;..pose-training\u0007"
-    ],
-    [
-      0.023882,
-      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[01;32m~/code/docker-compose-training\u001b[00m \u001b[01;35m master\u001b[31m⚡\u001b[00m \u001b[01;32m13:00:47\u001b[00m\r\n\u001b[01;32m$\u001b[00m "
+      0.023736,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[01;32m~/code/docker-compose-training\u001b[00m \u001b[01;35m master\u001b[31m⚡\u001b[00m \u001b[01;32m15:07:44\u001b[00m\r\n\u001b[01;32m$\u001b[00m "
     ],
     [
       0.000008,
-      "\u001b[K\u001b[100C\u001b[01;31m\u001b[00m\u001b[100D"
+      "\u001b[K\u001b[105C\u001b[01;31m\u001b[00m\u001b[105D"
     ],
     [
       0.000109,
       "\u001b[?1h\u001b="
     ],
     [
-      1.741238,
+      2.604071,
       "docker-compose -f docker-compose-5-helper.yml run --rm dev python test.py"
     ],
     [
-      0.807760,
-      "\u001b[?1l\u001b\u003e"
+      1.296096,
+      "\u0008\u0008  \u0008\u0008"
     ],
     [
-      0.000063,
-      "\r\r\n"
+      0.415758,
+      "\u0008\u0008\u0008\u0008\u0008     \u0008\u0008\u0008\u0008\u0008"
     ],
     [
-      0.000915,
-      "\u001b]2;docker-compose -f docker-compose-5-helper.yml run --rm dev python test.py\u0007"
+      0.327934,
+      "\u0008\u0008\u0008\u0008\u0008\u0008\u0008      \u0008\u0008\u0008\u0008\u0008\u0008"
     ],
     [
-      0.000009,
-      "\u001b]1;docker-compose\u0007"
+      2.279879,
+      "\u0008\u0008\u0008\u0008   \u0008\u0008\u0008"
     ],
     [
-      0.938481,
-      "\r"
+      0.656529,
+      "-"
     ],
     [
-      0.000128,
-      "\n"
+      0.103651,
+      "-"
     ],
     [
-      0.000293,
-      "W"
+      0.056023,
+      "s"
     ],
     [
-      0.000083,
-      "eb App Starting..."
+      0.152313,
+      "e"
     ],
     [
-      0.000408,
-      "\r"
+      0.071599,
+      "r"
     ],
     [
-      0.000168,
-      "\n"
+      0.184392,
+      "v"
     ],
     [
-      0.000351,
-      "C"
+      0.087714,
+      "i"
     ],
     [
-      0.000159,
-      "onnecting to redis"
+      0.095761,
+      "c"
     ],
     [
-      0.000299,
-      "\r"
+      0.096341,
+      "e"
     ],
     [
-      0.000076,
-      "\n"
+      0.183903,
+      "-"
     ],
     [
-      0.001697,
-      "C"
+      0.342825,
+      "ports\u001b[1m \u001b[0m"
     ],
     [
-      0.000082,
-      "onnected to redis\r\n"
+      0.665453,
+      "\u0008\u001b[0m d"
     ],
     [
-      0.001921,
-      "L"
+      0.120022,
+      "e"
     ],
     [
-      0.000088,
-      "istening on port 5000...\r\n"
+      0.119978,
+      "v"
     ],
     [
-      0.014604,
-      "\r"
+      0.095676,
+      " "
     ],
     [
-      0.000095,
-      "\n*** Testing that '/' returns HTTP/200 ***\r\n"
-    ],
-    [
-      0.019846,
-      "."
-    ],
-    [
-      0.000535,
-      "\r"
-    ],
-    [
-      0.000263,
-      "\n"
-    ],
-    [
-      0.000106,
-      "*"
-    ],
-    [
-      0.000202,
-      "** Testing that voting for option a works ***"
-    ],
-    [
-      0.000406,
-      "\r"
-    ],
-    [
-      0.000212,
-      "\n"
-    ],
-    [
-      0.012908,
-      "I"
-    ],
-    [
-      0.000273,
-      "nserting a vote for option a in Redis!\r\n"
-    ],
-    [
-      0.007080,
-      "."
-    ],
-    [
-      0.000472,
-      "\r"
-    ],
-    [
-      0.000218,
-      "\n*** Testing that voting for option b works ***\r\n"
-    ],
-    [
-      0.005362,
-      "I"
-    ],
-    [
-      0.000234,
-      "nserting a vote for option b in Redis!\r\n"
-    ],
-    [
-      0.007111,
-      "."
-    ],
-    [
-      0.000261,
-      "\r\n----------------------------------------------------------------------"
-    ],
-    [
-      0.000303,
-      "\r"
-    ],
-    [
-      0.000083,
-      "\nRan 3 tests in 0.063s\r\n\r\nOK\r\n"
-    ],
-    [
-      0.391412,
-      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                      \r \r"
-    ],
-    [
-      0.000328,
-      "\u001b]2;clement.labbe@VIC018192M: ~/code/docker-compose-training\u0007\u001b]1;..pose-training\u0007"
-    ],
-    [
-      0.024364,
-      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[01;32m~/code/docker-compose-training\u001b[00m \u001b[01;35m master\u001b[31m⚡\u001b[00m \u001b[01;32m13:00:51\u001b[00m\r\n\u001b[01;32m$\u001b[00m "
-    ],
-    [
-      0.000007,
-      "\u001b[K\u001b[100C\u001b[01;31m\u001b[00m\u001b[100D"
-    ],
-    [
-      0.000111,
-      "\u001b[?1h\u001b="
-    ],
-    [
-      5.128180,
-      "docker-compose -f docker-compose-5-helper.yml run --rm dev python test.py"
-    ],
-    [
-      0.375898,
-      "\u0008 \u0008"
-    ],
-    [
-      0.127806,
-      "\u0008 \u0008"
-    ],
-    [
-      0.136230,
-      "\u0008 \u0008"
-    ],
-    [
-      0.135741,
-      "\u0008 \u0008"
-    ],
-    [
-      0.127958,
-      "\u0008 \u0008"
-    ],
-    [
-      0.120048,
-      "\u0008 \u0008"
-    ],
-    [
-      0.128333,
-      "\u0008 \u0008"
-    ],
-    [
-      0.399965,
-      "a"
-    ],
-    [
-      0.183809,
+      0.519952,
       "p"
     ],
     [
-      0.087934,
-      "p"
-    ],
-    [
-      0.792066,
-      "."
-    ],
-    [
-      0.199998,
-      "p"
-    ],
-    [
-      0.096131,
+      0.240494,
       "y"
     ],
     [
-      1.103837,
+      0.063961,
+      "t"
+    ],
+    [
+      0.112089,
+      "h"
+    ],
+    [
+      0.159894,
+      "o"
+    ],
+    [
+      0.104070,
+      "n"
+    ],
+    [
+      0.071584,
+      " "
+    ],
+    [
+      0.232396,
+      "a"
+    ],
+    [
+      0.095662,
+      "p"
+    ],
+    [
+      0.112266,
+      "p"
+    ],
+    [
+      0.184175,
+      "."
+    ],
+    [
+      0.183472,
+      "p"
+    ],
+    [
+      0.120448,
+      "y"
+    ],
+    [
+      0.319651,
       "\u001b[?1l\u001b\u003e"
     ],
     [
-      0.000042,
+      0.000038,
       "\r\r\n"
     ],
     [
-      0.001088,
-      "\u001b]2;docker-compose -f docker-compose-5-helper.yml run --rm dev python app.py\u0007"
+      0.001089,
+      "\u001b]2;docker-compose -f docker-compose-5-helper.yml run --rm --service-ports dev  \u0007"
     ],
     [
       0.000008,
       "\u001b]1;docker-compose\u0007"
     ],
     [
-      1.482682,
-      "\r"
-    ],
-    [
-      0.000086,
-      "\nWeb App Starting...\r\nConnecting to redis\r\n"
-    ],
-    [
-      0.001355,
-      "C"
-    ],
-    [
-      0.000086,
-      "onnected to redis"
-    ],
-    [
-      0.000236,
-      "\r"
-    ],
-    [
-      0.000088,
-      "\n"
-    ],
-    [
-      0.002375,
-      "L"
-    ],
-    [
-      0.000191,
-      "istening on port 5000..."
-    ],
-    [
-      0.000140,
-      "\r"
-    ],
-    [
-      0.000152,
-      "\n"
-    ],
-    [
-      0.013635,
-      " "
-    ],
-    [
-      0.000072,
-      "* Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)"
-    ],
-    [
-      0.000263,
-      "\r"
-    ],
-    [
-      0.000037,
-      "\n"
-    ],
-    [
-      0.006252,
-      " "
-    ],
-    [
-      0.000096,
-      "* Restarting with stat"
-    ],
-    [
-      0.000162,
-      "\r"
-    ],
-    [
-      0.000080,
-      "\n"
-    ],
-    [
-      0.163608,
+      1.453642,
       "\r"
     ],
     [
@@ -1367,119 +1139,203 @@
       "\nWeb App Starting...\r\nConnecting to redis\r\n"
     ],
     [
-      0.001373,
+      0.001722,
       "C"
     ],
     [
-      0.000110,
-      "onnected to redis"
+      0.000007,
+      "onnected to redis\r\n"
     ],
     [
-      0.000237,
-      "\r"
-    ],
-    [
-      0.000067,
-      "\n"
-    ],
-    [
-      0.002055,
+      0.002309,
       "L"
     ],
     [
-      0.000188,
+      0.000212,
+      "istening on port 5000...\r\n"
+    ],
+    [
+      0.010933,
+      " "
+    ],
+    [
+      0.000178,
+      "* Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)"
+    ],
+    [
+      0.000160,
+      "\r"
+    ],
+    [
+      0.000201,
+      "\n"
+    ],
+    [
+      0.007773,
+      " "
+    ],
+    [
+      0.000081,
+      "* Restarting with stat\r\n"
+    ],
+    [
+      0.180557,
+      "\r"
+    ],
+    [
+      0.000080,
+      "\n"
+    ],
+    [
+      0.000197,
+      "Web App Starting..."
+    ],
+    [
+      0.000253,
+      "\r"
+    ],
+    [
+      0.000146,
+      "\n"
+    ],
+    [
+      0.000202,
+      "C"
+    ],
+    [
+      0.000204,
+      "onnecting to redis"
+    ],
+    [
+      0.000132,
+      "\r\n"
+    ],
+    [
+      0.001727,
+      "C"
+    ],
+    [
+      0.000091,
+      "onnected to redis\r\n"
+    ],
+    [
+      0.001856,
+      "L"
+    ],
+    [
+      0.000226,
       "istening on port 5000..."
+    ],
+    [
+      0.000099,
+      "\r"
+    ],
+    [
+      0.000169,
+      "\n"
+    ],
+    [
+      0.012130,
+      " "
+    ],
+    [
+      0.000100,
+      "* Debugger is active!\r\n"
+    ],
+    [
+      0.013920,
+      " "
+    ],
+    [
+      0.000139,
+      "* Debugger pin code: 402-704-061"
     ],
     [
       0.000162,
       "\r"
     ],
     [
-      0.000154,
+      0.000103,
       "\n"
     ],
     [
-      0.012449,
-      " "
-    ],
-    [
-      0.000174,
-      "* Debugger is active!"
-    ],
-    [
-      0.000240,
+      1.646717,
       "\r"
     ],
     [
-      0.000091,
+      0.000221,
       "\n"
     ],
     [
-      0.014111,
-      " "
-    ],
-    [
-      0.000116,
-      "* Debugger pin code: 402-704-061"
-    ],
-    [
-      0.000292,
+      0.127623,
       "\r"
     ],
     [
-      0.000047,
+      0.000183,
       "\n"
     ],
     [
-      2.792649,
+      1.135846,
+      "c"
+    ],
+    [
+      0.111184,
+      "o"
+    ],
+    [
+      0.088294,
+      "o"
+    ],
+    [
+      0.183825,
+      "l"
+    ],
+    [
+      0.088592,
       "\r"
     ],
     [
-      0.000194,
+      0.000228,
       "\n"
     ],
     [
-      0.143956,
-      "\r"
-    ],
-    [
-      0.000216,
-      "\n"
-    ],
-    [
-      6.424272,
+      1.147271,
       "^"
     ],
     [
-      0.000074,
+      0.000668,
       "C"
     ],
     [
-      0.433920,
-      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                      \r \r"
+      0.434461,
+      "^D\u0008\u0008"
     ],
     [
-      0.000257,
+      0.056159,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                           \r \r"
+    ],
+    [
+      0.000159,
       "\u001b]2;clement.labbe@VIC018192M: ~/code/docker-compose-training\u0007"
     ],
     [
-      0.000186,
+      0.000018,
       "\u001b]1;..pose-training\u0007"
     ],
     [
-      0.023493,
-      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[01;32m~/code/docker-compose-training\u001b[00m \u001b[01;35m master\u001b[31m⚡\u001b[00m \u001b[01;32m13:01:12\u001b[00m\r\n\u001b[01;32m$\u001b[00m "
+      0.024325,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[01;32m~/code/docker-compose-training\u001b[00m \u001b[01;35m master\u001b[31m⚡\u001b[00m \u001b[01;32m15:08:04\u001b[00m\r\n\u001b[01;32m$\u001b[00m "
     ],
     [
-      0.000008,
-      "\u001b[K\u001b[100C\u001b[01;31m\u001b[00m\u001b[100D"
+      0.000007,
+      "\u001b[K\u001b[105C\u001b[01;31m\u001b[00m\u001b[105D"
     ],
     [
-      0.000116,
+      0.000094,
       "\u001b[?1h\u001b="
     ],
     [
-      1.548872,
+      0.000052,
       "\r\r\n"
     ]
   ]
