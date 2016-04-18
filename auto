@@ -7,7 +7,7 @@ setup:
 	docker-compose run --rm dev pip install -r requirements.txt
 	
 start:
-	docker-compose run --rm --service-ports dev python app.py
+	docker-compose up --abort-on-container-exit
 
 test:
 	docker-compose run --rm dev python test.py

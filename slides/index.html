@@ -268,7 +268,6 @@ volumes:
 ```
 
 - Creates volume `python2.7-pip-cache` that will persist after containers die.
-- That volume can be used in other projects!
 - `python` needs a few environment variables to use this volume.
 
 ---
@@ -339,9 +338,7 @@ $ docker-compose -f docker-compose-5-helper.yml run --rm dev \
     python test.py
 
 # Start the app
-$ docker-compose -f docker-compose-5-helper.yml \
-    run --rm --service-ports dev \
-    python app.py
+$ docker-compose -f docker-compose-5-helper.yml up
 ```
 
 - What extra step happened here compared to the previous exercises?
@@ -358,7 +355,7 @@ install:
 	docker-compose run --rm dev pip install -r requirements.txt
 
 start:
-	docker-compose run --rm --service-ports dev python app.py
+	docker-compose up
 
 test:
 	docker-compose run --rm dev python test.py
@@ -366,7 +363,7 @@ test:
 
 - Usage example:
 ```bash
-$ ./auto install
+$ ./auto setup
 $ ./auto test
 ```
 
@@ -388,12 +385,14 @@ name: try-it-yourself-6
   - What's the exit code?
 
 - Why is this useful for continuous integration?
-- The default command is already `python test.py`
+- Change the default command to `python test.py`
   - Try `docker-compose up`
 
 ---
 # The End!
 - Raise Issue or PR at docker-compose-training: https://github.com/diist/docker-compose-training
+
+- Slides in the same repo: https://github.com/diist/docker-compose-training/blob/master/slides/index.html
 
 - We're hiring! http://careers.realestate.com.au
 

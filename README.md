@@ -92,8 +92,7 @@ $ docker-compose -f docker-compose-5-helper.yml run --rm dev \
     python test.py
     
 # Start the app
-$ docker-compose -f docker-compose-5-helper.yml run --rm --service-ports dev \
-    python app.py
+$ docker-compose -f docker-compose-5-helper.yml up
 ```
 
 - What extra step happened here compared to the previous exercises?
@@ -114,5 +113,5 @@ $ docker-compose -f docker-compose-5-helper.yml run --rm --service-ports dev \
   - What's the exit code?
 
 - Why is this useful for continuous integration?
-- The default command is already `python test.py`
+- Change the default command to `python test.py`
   - Try `docker-compose up`

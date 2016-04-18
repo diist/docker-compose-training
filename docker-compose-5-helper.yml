@@ -3,7 +3,7 @@ version: '2'
 services:
   dev:
     build: ./alpine-python2.7
-    command: bash
+    command: python app.py
     volumes:
       - ./voting-app:/cwd
       - python2.7-cache:/pip-cache
