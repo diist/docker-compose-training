@@ -28,19 +28,12 @@ class: center, middle, big
 - [Voting App Example](#voting-app-example)
 - [Without Docker](#without-docker)
 - [With Docker Compose](#with-docker-compose)
-  - [Try it yourself #1](#try-it-yourself-1)
 - [Linking Redis](#linking-redis)
-  - [Try it yourself #2](#try-it-yourself-2)
 - [Exposing the Ports](#exposing-the-ports)
-  - [Try it yourself #3](#try-it-yourself-3)
 - [Using a Cache Volume](#using-a-cache-volume)
-  - [Try it yourself #4](#try-it-yourself-4)
 - [Using a Helper Image](#helper-image)
-  - [Try it yourself #5](#try-it-yourself-5)
 - [CI-friendly with `auto` script](#ci-friendly-with-auto-script)
 - [Break the Tests](#try-it-yourself-6)
-  - [Try it yourself #6](#try-it-yourself-5)
-- [AWS Access](#aws-access)
 
 ---
 name: voting-app-example
@@ -74,7 +67,7 @@ name: without-docker
 # Without Docker
 
 You need:
-  - python
+  - python 2.7
     - flask
     - redis
   - redis server
@@ -95,6 +88,23 @@ $ python app.py
 $ python test.py
 ```
 
+---
+name: without-docker-2
+class: center, middle, big
+# Without Docker
+
+![rage](media/rage.jpg)
+
+_It works on my laptop_ syndrome
+
+---
+name: with-docker
+class: center, middle, big
+# With Docker
+
+![rage](media/confused.jpg)
+
+It's a bit better, mostly.
 ---
 ### Dockerfile for voting-app
 ```bash
@@ -150,7 +160,7 @@ services:
 - We mount our app source code in the container and get a bash prompt
 ---
 name: try-it-yourself-1
-# Try it yourself #1
+# Let's try that #1
 - Run the following commands:
 ```
 $ docker-compose -f docker-compose-1-intro.yml run dev
@@ -191,7 +201,7 @@ networks:
 
 ---
 name: linking-redis-diagram
-# Linking Redis Diagram
+# Linking Redis
 ```
              +-------------------------+
              | +---------------------+ |
@@ -212,7 +222,7 @@ name: linking-redis-diagram
 ```
 ---
 name: try-it-yourself-2
-# Try it yourself #2
+# Let's try that #2
 - Run the following commands:
 ```
 $ docker-compose -f docker-compose-2-redis.yml run dev
@@ -271,7 +281,7 @@ name: exposing-the-ports-diagram
 
 ---
 name: try-it-yourself-3
-# Try it yourself #3
+# Let's try that #3
 - Run the following commands:
 ```
 $ docker-compose -f docker-compose-3-ports.yml \
@@ -333,30 +343,6 @@ name: using-a-cache-volume-diagram
              +------------------------------------------+
 
 ```
-
----
-name: try-it-yourself-4
-# Try it yourself #4
-- Run the following commands:
-```
-$ docker-compose -f docker-compose-4-cache.yml \
-        run --service-ports dev
-root@container:/cwd# pip install -r requirements.txt
-root@container:/cwd# python test.py
-root@container:/cwd# python app.py
-```
-
-- Exit the container
-- Try again without installing anything:
-```
-$ docker-compose -f docker-compose-4-cache.yml \
-        run --service-ports dev
-root@container:/cwd# python test.py
-root@container:/cwd# python app.py
-```
-
-- Does it work without installing the requirements every time?
-
 ---
 name: using-a-cache-volume-diagram-2
 # Using a Cache Volume
@@ -377,6 +363,30 @@ name: using-a-cache-volume-diagram-2
              | Docker Host                              |
              +------------------------------------------+
 ```
+
+---
+name: try-it-yourself-4
+# Let's try that #4
+- Run the following commands:
+```
+$ docker-compose -f docker-compose-4-cache.yml \
+        run --service-ports dev
+root@container:/cwd# pip install -r requirements.txt
+root@container:/cwd# python test.py
+root@container:/cwd# python app.py
+```
+
+- Exit the container
+- Try again without installing anything:
+```
+$ docker-compose -f docker-compose-4-cache.yml \
+        run --service-ports dev
+root@container:/cwd# python test.py
+root@container:/cwd# python app.py
+```
+
+- Does it work without installing the requirements every time?
+
 ---
 name: helper-image
 # Using a helper image
@@ -406,10 +416,11 @@ RUN apk add --update \
 
 CMD ["sh"]
 ```
+.center[![helper](media/helper.jpg)]
 
 ---
 name: try-it-yourself-5
-# Try it yourself #5
+# Let's try that #5
 - Run the following one-off commands:
 
 ```bash
@@ -456,7 +467,7 @@ $ ./auto test
 
 ---
 name: try-it-yourself-6
-# Try it yourself #6
+# Let's try that #6
 ## Break the tests
 - Run the tests
   - You can use `./auto test`
@@ -479,6 +490,14 @@ name: try-it-yourself-6
 - Slides in the same repo: https://github.com/diist/docker-compose-training/blob/master/slides/index.html
 
 - We're hiring! http://careers.realestate.com.au
+
+.center[
+  ![shipping](media/shipping.jpg)
+  
+  Good luck shipping your containers!
+]
+
+---
 
 <link rel="import" href="docker-compose.html" />
 
